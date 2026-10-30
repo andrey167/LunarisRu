@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_section_conversations">Чаты</string>
+    <string name="search_section_shortcuts">Ярлыки</string>
+    <string name="search_section_contacts">Контакты</string>
+    <string name="search_section_settings">Настройки</string>
+    <string name="search_sources_title">Источники поиска</string>
+    <string name="search_shortcuts_title">Ярлыки приложений</string>
+    <string name="search_shortcuts_summary">Включать ярлыки приложений в поиск по меню приложений</string>
+    <string name="search_conversations_title">Чаты</string>
+    <string name="search_conversations_summary">Включать недавние переписки из мессенджеров</string>
+    <string name="search_contacts_title">Контакты</string>
+    <string name="search_contacts_summary">Включать контакты. Требуется разрешение на чтение контактов.</string>
+    <string name="search_settings_title">Настройки</string>
+    <string name="search_settings_summary">Включать пункты настроек для быстрого перехода к нужному разделу</string>
+    <string name="search_section_qs_tiles">Быстрые настройки</string>
+    <string name="search_qs_tiles_title">Плитки быстрых настроек</string>
+    <string name="search_qs_tiles_summary">Находите плитки быстрых настроек и переключайте их прямо из поиска</string>
+    <string name="search_section_calculator">Калькулятор</string>
+    <string name="search_section_files">Файлы</string>
+    <string name="search_section_events">Календарь</string>
+    <string name="search_section_actions">Действия</string>
+    <string name="search_action_web">Искать «%1$s» в интернете</string>
+    <string name="search_action_in_app">Искать в %1$s</string>
+    <string name="search_calculator_title">Калькулятор</string>
+    <string name="search_calculator_summary">Выполняйте вычисления, конвертацию единиц и валют, расчеты часовых поясов и дат прямо во время ввода. Курсы валют загружаются из ЕЦБ.</string>
+    <string name="search_files_title">Файлы и медиа</string>
+    <string name="search_files_summary">Находите доступные медиафайлы по названию или вводите «скриншоты» или «загрузки»</string>
+    <string name="search_events_title">События календаря</string>
+    <string name="search_events_summary">Включать события календаря. Требуется разрешение на чтение календаря.</string>
+    <string name="search_actions_title">Поиск в интернете и приложениях</string>
+    <string name="search_actions_summary">Предлагать поиск в интернете, внутри приложений или в магазине приложений, а также поиск определений слов</string>
+    <string name="search_permission_summary">Нажмите, чтобы предоставить доступ в о приложении</string>
+    <string name="search_permission_contacts">Разрешить доступ к контактам для их поиска</string>
+    <string name="search_permission_calendar">Разрешить доступ к календарю для поиска событий</string>
+    <string name="search_permission_files">Разрешить доступ к медиафайлам для поиска файлов</string>
+    <string name="search_section_quick_actions">Быстрые действия</string>
+    <string name="search_quick_actions_title">Быстрые действия</string>
+    <string name="search_quick_actions_summary">Распознавать фразы вроде «таймер 5 мин», «будильник 7:30», «написать Сэму», а также номера телефонов и веб-адреса</string>
+    <string name="search_action_timer">Установить таймер на %1$s</string>
+    <string name="search_action_alarm">Установить будильник на %1$s</string>
+    <string name="search_action_call">Позвонить: %1$s</string>
+    <string name="search_action_text">Написать: %1$s</string>
+    <string name="search_action_email">Отправить письмо: %1$s</string>
+    <string name="search_action_add_contact">Добавить в контакты</string>
+    <string name="search_action_open">Открыть %1$s</string>
+    <string name="search_action_reminder">Добавить «%1$s» в календарь</string>
+    <plurals name="search_duration_seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+    <plurals name="search_duration_minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минуты</item>
+    </plurals>
+    <plurals name="search_duration_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <string name="search_section_apps">Приложения</string>
+    <string name="search_section_app_content">Из приложений</string>
+    <string name="search_section_web_suggestions">Подсказки из интернета</string>
+    <string name="search_section_history">История поиска</string>
+    <string name="search_filter_all">Все</string>
+    <string name="search_show_more">Показать еще %1$d</string>
+    <string name="search_history_clear">Очистить историю поиска</string>
+    <string name="search_action_store">Искать «%1$s» в %2$s</string>
+    <string name="search_action_define">Определение «%1$s»</string>
+    <string name="search_action_define_in">Искать значение «%1$s» в %2$s</string>
+    <string name="search_time_in">%1$s · %2$s · %3$s</string>
+    <string name="search_menu_copy">Копировать</string>
+    <string name="search_menu_call">Позвонить</string>
+    <string name="search_menu_message">Написать</string>
+    <string name="search_menu_copy_number">Скопировать номер</string>
+    <string name="search_menu_share">Поделиться</string>
+    <string name="search_menu_open_with">Открыть с помощью…</string>
+    <string name="search_menu_open_settings">Открыть настройки</string>
+    <string name="search_menu_add_to_home">Добавить на главный экран</string>
+    <string name="search_menu_app_info">О приложении</string>
+    <string name="search_pin_unsupported">Не удалось добавить на главный экран</string>
+    <string name="search_app_content_title">Контент из приложений</string>
+    <string name="search_app_content_summary">Включать заметки, сообщения и другие элементы, которыми приложения делятся с системным индексом поиска</string>
+    <string name="search_web_suggestions_title">Подсказки из интернета</string>
+    <string name="search_web_suggestions_summary">Предлагать поисковые запросы при вводе. Вводимый текст отправляется в выбранный поисковик. Выберите поисковую систему, отличную от системной по умолчанию, чтобы включить эту функцию.</string>
+    <string name="search_engine_title">Поисковая система</string>
+    <string name="search_behavior_title">Поведение поиска</string>
+    <string name="search_history_title">История поиска</string>
+    <string name="search_history_summary">Показывать недавние поисковые запросы и поднимать выше часто открываемые элементы</string>
+    <string name="search_section_order_title">Порядок разделов</string>
+    <string name="search_section_order_summary">Выберите, какие типы результатов отображать первыми</string>
+    <string name="search_section_order_reset">Сбросить</string>
+    <string name="search_section_order_drag">Перетащите для изменения порядка</string>
+    <string name="search_max_per_section_title">Результатов на раздел</string>
+    <string-array name="search_engine_entries">
+        <item>Системная по умолчанию</item>
+        <item>Google</item>
+        <item>DuckDuckGo</item>
+        <item>Bing</item>
+        <item>Brave Search</item>
+    </string-array>
+    <string-array name="search_engine_values" translatable="false">
+        <item>default</item>
+        <item>google</item>
+        <item>duckduckgo</item>
+        <item>bing</item>
+        <item>brave</item>
+    </string-array>
+    <string name="search_section_photos">Фото</string>
+    <string name="search_section_screenshots">Недавние скриншоты</string>
+    <string name="search_photo">Фотография</string>
+    <string name="search_action_in_google_photos">Искать «%1$s» в Google Фото</string>
+    <string name="search_photos_title">Фото по содержимому</string>
+    <string name="search_photos_summary">Находите фотографии по их содержимому, например «кошка» или «пляж». Разметка фото происходит на устройстве, в основном во время зарядки.</string>
+    <string name="search_recent_screenshots_title">Недавние скриншоты</string>
+    <string name="search_recent_screenshots_summary">Показывать последние скриншоты в поиске до начала ввода</string>
+    <string name="search_whatsapp">WhatsApp</string>
+    <string name="search_history_remove">Удалить из недавних запросов</string>
+    <string name="search_currency_source">%1$s · Курсы ЕЦБ, %2$s</string>
+    <string name="search_currency_source_stale">%1$s · Курсы ЕЦБ от %2$s, офлайн</string>
+    <string name="universal_search_title">Универсальный поиск</string>
+    <string name="universal_search_summary">Источники поиска, история и настройки результатов</string>
+    <string name="universal_search_hint">Поиск приложений и не только</string>
+    <string name="search_toggle_on">Вкл.</string>
+    <string name="search_toggle_off">Выкл.</string>
+</resources>

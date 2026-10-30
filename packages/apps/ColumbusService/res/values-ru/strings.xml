@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Сервис Quick Tap</string>
+
+    <!-- Pref keys -->
+    <string name="pref_key_lottie" translatable="false">video</string>
+    <string name="pref_key_enabled" translatable="false">enabled</string>
+    <string name="pref_key_footer" translatable="false">footer</string>
+    <string name="pref_key_sensitivity" translatable="false">sensitivity</string>
+    <string name="pref_key_action" translatable="false">action</string>
+    <string name="pref_key_launch_app" translatable="false">launch_app</string>
+    <string name="pref_key_launch_app_name" translatable="false">launch_app_name</string>
+    <string name="pref_key_launch_app_shortcut" translatable="false">launch_app_shortcut</string>
+    <string name="pref_key_allow_screen_off" translatable="false">allow_screen_off</string>
+    <string name="pref_key_allow_screen_off_action_forced" translatable="false">allow_screen_off_action_forced</string>
+    <string name="pref_key_haptic_intensity" translatable="false">haptic_intensity</string>
+
+    <!-- Other non-translatable -->
+    <string name="summary_placeholder" translatable="false"> </string>
+    <string name="launch_app_default" translatable="false">none</string>
+
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Quick Tap</string>
+    <string name="settings_entry_summary_on">Вкл. / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Выкл.</string>
+    <string name="settings_search_keywords">Quick Tap, двойное постукивание, постукивание, жест, ассистент</string>
+
+    <!-- Items in Active Edge gesture settings -->
+    <string name="setting_enabled_title">Использовать Quick Tap</string>
+    <string name="setting_footer_content">Чтобы выполнить действие, дважды постучите по задней панели телефона ближе к середине</string>
+    <string name="setting_sensitivity_title">Чувствительность</string>
+    <string name="setting_sensitivity_light">Легкое постукивание</string>
+    <string name="setting_sensitivity_heavy">Сильное постукивание</string>
+    <string name="setting_screen_off_title">Разрешить при выключенном экране</string>
+    <string name="setting_screen_off_summary">Может участиться количество ложных срабатываний</string>
+    <string name="setting_screen_off_blocked_summary">Заблокировано текущим действием</string>
+    <string name="setting_action_title">При двойном постукивании сзади</string>
+
+    <!-- App picker -->
+    <string name="app_picker_dialog_title">Выберите приложение</string>
+    <string name="app_select_title">Выбрать приложение</string>
+    <string name="activity_select_title">Выберите активность</string>
+    <string name="launch_app_select_title">@string/app_picker_dialog_title</string>
+    <string name="launch_app_select_summary">Выберите приложение для запуска с помощью Quick Tap</string>
+
+    <!-- Actions -->
+    <string name="action_screenshot_name">Сделать скриншот</string>
+    <string name="action_assistant_name">Открыть ассистента</string>
+    <string name="action_media_name">Воспроизведение/пауза медиа</string>
+    <string name="action_notifications_name">Открыть шторку уведомлений</string>
+    <string name="action_overview_name">Открыть меню недавних приложений</string>
+    <string name="action_camera_name">Открыть камеру</string>
+    <string name="action_power_menu_name">Открыть меню питания</string>
+    <string name="action_mute_name">Отключить звук звонков и уведомлений</string>
+    <string name="action_flashlight_name">Включить/выключить фонарик</string>
+    <string name="action_screen_name">Включить/выключить экран</string>
+    <string name="action_launch_name">Запустить приложение</string>
+
+    <string name="action_screenshot_value">screenshot</string>
+    <string name="action_assistant_value">assistant</string>
+    <string name="action_media_value">media</string>
+    <string name="action_notifications_value">notifications</string>
+    <string name="action_overview_value">overview</string>
+    <string name="action_camera_value">camera</string>
+    <string name="action_power_menu_value">power_menu</string>
+    <string name="action_mute_value">mute</string>
+    <string name="action_flashlight_value">flashlight</string>
+    <string name="action_screen_value">screen</string>
+    <string name="action_launch_value">launch</string>
+
+    <!-- Actions meta -->
+    <string-array name="action_values" translatable="false">
+        <item>@string/action_screenshot_value</item>
+        <item>@string/action_assistant_value</item>
+        <item>@string/action_media_value</item>
+        <item>@string/action_notifications_value</item>
+        <item>@string/action_overview_value</item>
+        <item>@string/action_camera_value</item>
+        <item>@string/action_power_menu_value</item>
+        <item>@string/action_mute_value</item>
+        <item>@string/action_flashlight_value</item>
+        <item>@string/action_screen_value</item>
+        <item>@string/action_launch_value</item>
+    </string-array>
+    <string-array name="action_names" translatable="false">
+        <item>@string/action_screenshot_name</item>
+        <item>@string/action_assistant_name</item>
+        <item>@string/action_media_name</item>
+        <item>@string/action_notifications_name</item>
+        <item>@string/action_overview_name</item>
+        <item>@string/action_camera_name</item>
+        <item>@string/action_power_menu_name</item>
+        <item>@string/action_mute_name</item>
+        <item>@string/action_flashlight_name</item>
+        <item>@string/action_screen_name</item>
+        <item>@string/action_launch_name</item>
+    </string-array>
+
+    <!-- Toast -->
+    <string name="gesture_detected">Жест Quick Tap распознан!</string>
+
+    <!-- Haptic feedback intensity -->
+    <string name="pref_title_haptic_intensity">Интенсивность виброотклика</string>
+    <string-array name="pref_haptic_intensity_entries">
+        <item>Слабый</item>
+        <item>Средний</item>
+        <item>Сильный</item>
+    </string-array>
+    <string-array name="pref_haptic_intensity_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

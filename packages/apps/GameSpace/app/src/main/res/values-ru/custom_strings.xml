@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: crDroid Android Project
+     SPDX-FileCopyrightText: Chaldeaprjkt
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="incoming_call">Входящий вызов…</string>
+   <!-- Crosshair -->
+    <string name="crosshair_settings_title">Свой прицел</string>
+    <string name="crosshair_settings_summary">Отображать по центру экрана наложение пользовательского прицела</string>
+    <string name="tile_crosshair">Прицел</string>
+    <string name="crosshair_style_title">Стиль прицела</string>
+    <string name="crosshair_style_entry">Стиль %1$d</string>
+    <string name="crosshair_color_title">Цвет прицела</string>
+    <string name="crosshair_color_green">Зеленый</string>
+    <string name="crosshair_color_red">Красный</string>
+    <string name="crosshair_color_cyan">Голубой</string>
+    <string name="crosshair_color_yellow">Желтый</string>
+    <string name="crosshair_color_white">Белый</string>
+    <string name="crosshair_color_blue">Синий</string>
+    <string name="crosshair_size_title">Размер</string>
+    <string name="crosshair_opacity_title">Непрозрачность</string>
+    <string name="crosshair_offset_x_title">Смещение по X</string>
+    <string name="crosshair_offset_y_title">Смещение по Y</string>
+    <string name="crosshair_reset_position_title">Сбросить положение</string>
+    <!-- Music Player -->
+    <string name="music_player_enabled_title">Внутриигровой музыкальный контроллер</string>
+    <string name="music_player_enabled_summary">Отображать элементы управления медиафайлами во плавающей боковой панели</string>
+    <string name="no_music_playing">Музыка не играет</string>
+    <string name="tap_to_play">Нажмите, чтобы начать воспроизведение</string>
+
+</resources>

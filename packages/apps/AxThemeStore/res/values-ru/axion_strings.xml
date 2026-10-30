@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Темы</string>
+
+    <string name="system_themes_title">Системные темы</string>
+    <string name="system_icons_title">Системные значки</string>
+    <string name="no_theme_packages">Нет установленных пакетов тем</string>
+    <string name="no_theme_packages_desc">Установите пакеты тем для настройки системных значков и интерфейса</string>
+    <string name="theme_applied">Применено</string>
+    <string name="theme_not_applied">Не применено</string>
+    <string name="create_theme">Создать тему</string>
+    <string name="theme_creator_title">Создание тем</string>
+    <string name="theme_name">Название темы</string>
+    <string name="theme_name_hint">Введите название темы, чтобы легко найти ее позже</string>
+    <string name="section_wifi_icons">Значки Wi-Fi</string>
+    <string name="section_signal_icons">Значки сотовой связи</string>
+    <string name="wifi_icons_desc">Заменить 5 индикаторов уровня сигнала Wi-Fi в строке состояния</string>
+    <string name="signal_icons_desc">Заменить 5 индикаторов уровня сигнала сотовой связи в строке состояния</string>
+    <string name="current_icons_label">ТЕКУЩИЕ</string>
+    <string name="your_icons_label">ВАШИ ЗАМЕНЫ</string>
+    <string name="import_drawable">Импорт</string>
+    <string name="save_and_apply">Сохранить и применить</string>
+    <string name="save_and_apply_count">Сохранить и применить (значков: %d)</string>
+    <string name="creator_guide_title">Как создать тему системных значков</string>
+    <string name="creator_guide_body">Замените значки в строке состояния своими собственными. Импортируйте PNG или векторные изображения (рекомендуется 24\u00d724dp, прозрачный фон, белый передний план). Система окрасит их в соответствии с вашей темой. Не обязательно заменять все значки — заменены будут только те, которые вы импортируете.</string>
+    <string name="advanced_overrides">Дополнительно: Замена любого элемента</string>
+    <string name="advanced_overrides_desc">Поиск и замена любого ресурса системного изображения по имени</string>
+    <string name="search_resource_name">Имя ресурса</string>
+    <string name="search_resource_hint">напр. ic_bluetooth, stat_sys_data, ic_qs_</string>
+    <string name="search_results_count">Найдено ресурсов: %d</string>
+
+    <string name="featured">Рекомендуемые</string>
+    <string name="installed">Установленные</string>
+    <string name="themes">Темы</string>
+    <string name="search_themes">Поиск тем</string>
+    <string name="recent_searches">Недавние поисковые запросы</string>
+    <string name="no_recent_searches">Нет недавних поисковых запросов</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="no_results_found">Ничего не найдено</string>
+
+    <string name="loading_themes">Загрузка тем\u2026</string>
+    <string name="failed_to_load_themes">Не удалось загрузить темы</string>
+    <string name="no_themes_found">Темы не найдены</string>
+    <string name="no_themes_available">Нет доступных тем</string>
+    <string name="try_different_search">Попробуйте ввести другой поисковый запрос</string>
+    <string name="check_back_later">Загляните позже, чтобы проверить новые темы</string>
+    <string name="retry">Повторить</string>
+
+    <string name="installed_components">Установленные компоненты</string>
+    <string name="active_theme_components">Компоненты активной темы</string>
+    <string name="active_theme_components_desc">Просмотреть все компоненты, применяемые к системе в данный момент</string>
+    <string name="ui_style">Стиль интерфейса</string>
+    <string name="icon_theme_components">Компоненты темы значков</string>
+    <string name="no_icon_themes_installed">Нет установленных тем значков</string>
+    <string name="browse_for_icon_themes">Откройте магазин тем для установки тем значков</string>
+    <string name="active">Активно</string>
+
+    <string name="app_icon_packs">Пакеты значков приложений</string>
+    <string name="themed_icons">Тематические значки</string>
+    <string name="themed_icons_desc">Монохромные значки, адаптирующиеся под цвета ваших обоев</string>
+    <string name="icon_style">Стиль значков</string>
+    <string name="axicons">AxIcons</string>
+    <string name="neutral">Нейтральный</string>
+    <string name="aosp">AOSP</string>
+    <string name="accent">Акцентный</string>
+    <string name="default_system_icon_pack">Пакет системных значков по умолчанию</string>
+
+    <string name="download">Скачать</string>
+    <string name="install">Установить</string>
+    <string name="apply">Применить</string>
+    <string name="apply_changes">Применить изменения</string>
+    <string name="disable">Отключить</string>
+    <string name="uninstall">Удалить</string>
+    <string name="resume_installation">Возобновить установку</string>
+    <string name="downloading">Загрузка %s\u2026</string>
+    <string name="installing">Установка\u2026</string>
+    <string name="update_to">Обновить до v%s</string>
+    <string name="pending_changes">Ожидающие изменения</string>
+    <string name="components">Компоненты</string>
+    <string name="tags">Теги</string>
+    <string name="error_prefix">Ошибка: %s</string>
+    <string name="components_installed">Установлено компонентов: %1$d из %2$d</string>
+
+    <string name="back">Назад</string>
+    <string name="search">Поиск</string>
+    <string name="refresh">Обновить</string>
+    <string name="remove">Удалить</string>
+    <string name="clear">Очистить</string>
+
+    <string name="default_ui_style">По умолчанию (Axion)</string>
+</resources>

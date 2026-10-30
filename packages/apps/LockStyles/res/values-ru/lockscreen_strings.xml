@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Lock screen settings strings, moved from Singularity (packages/apps/Singularity).
+     SPDX-FileCopyrightText: 2016-2026 crDroid Android Project
+     SPDX-FileCopyrightText: 2023-2024 The risingOS Android Project
+     SPDX-FileCopyrightText: 2024-2026 Lunaris AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="lockscreen_custom_clock_color_mode_entries" translatable="false">
+        <item>@string/default_value</item>
+        <item>@string/accent_color</item>
+        <item>@string/custom_color</item>
+    </string-array>
+    <string-array name="lockscreen_custom_clock_color_mode_values" translatable="false">
+        <item>default</item>
+        <item>accent</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="lockscreen_media_art_filter_entries">
+        <item>Нет</item>
+        <item>Размытие</item>
+        <item>Оттенки серого</item>
+        <item>Сепия</item>
+        <item>Пользовательский оттенок</item>
+        <item>Инвертировать</item>
+        <item>Оттенки серого + Размытие</item>
+        <item>Эффект пикселизации / Мозаика</item>
+    </string-array>
+    <string-array name="lockscreen_media_art_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="lockscreen_widgets_style_entries">
+        <item>@string/lockscreen_widgets_style1</item>
+        <item>@string/lockscreen_widgets_style2</item>
+        <item>@string/lockscreen_widgets_style3</item>
+        <item>@string/lockscreen_widgets_style4</item>
+        <item>@string/lockscreen_widgets_style5</item>
+        <item>@string/lockscreen_widgets_style6</item>
+    </string-array>
+    <string-array name="lockscreen_widgets_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nowplaying_color_mode_entries" translatable="false">
+        <item>Белый</item>
+        <item>Цвет акцента</item>
+        <item>Обложка альбома</item>
+    </string-array>
+    <string-array name="nowplaying_color_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="nowplaying_icon_style_entries">
+        <item>Отключено</item>
+        <item>Значок приложения</item>
+        <item>Значок ноты</item>
+    </string-array>
+    <string-array name="nowplaying_icon_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pulse_bass_haptics_entries" translatable="false">
+        <item>@string/pulse_bass_haptics_none</item>
+        <item>@string/pulse_bass_haptics_running</item>
+        <item>@string/pulse_bass_haptics_always</item>
+    </string-array>
+    <string-array name="pulse_bass_haptics_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pulse_capture_mode_entries" translatable="false">
+        <item>@string/pulse_capture_mode_fft</item>
+        <item>@string/pulse_capture_mode_amplitude</item>
+    </string-array>
+    <string-array name="pulse_capture_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pulse_color_entries" translatable="false">
+        <item>@string/pulse_color_lavalamp</item>
+        <item>@string/pulse_color_album</item>
+        <item>@string/pulse_color_accent</item>
+        <item>@string/custom_color</item>
+    </string-array>
+    <string-array name="pulse_color_values" translatable="false">
+        <item>lavalamp</item>
+        <item>album</item>
+        <item>accent</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="pulse_renderer_entries" translatable="false">
+        <item>@string/pulse_renderer_solid</item>
+        <item>@string/pulse_renderer_fading</item>
+        <item>@string/pulse_renderer_neon_glow</item>
+        <item>@string/pulse_renderer_retro_vu_meter</item>
+        <item>@string/pulse_renderer_minimal_wave</item>
+        <item>@string/pulse_renderer_sparkle</item>
+        <item>@string/pulse_renderer_matrix</item>
+        <item>@string/pulse_renderer_particle</item>
+        <item>@string/pulse_renderer_waveform</item>
+        <item>@string/pulse_renderer_dot_wave</item>
+    </string-array>
+    <string-array name="pulse_renderer_values" translatable="false">
+        <item>solid</item>
+        <item>fading</item>
+        <item>neon</item>
+        <item>retro</item>
+        <item>minimal</item>
+        <item>sparkle</item>
+        <item>matrix</item>
+        <item>particle</item>
+        <item>waveform</item>
+        <item>dotwave</item>
+    </string-array>
+    <string-array name="udfps_icon_type_entries">
+        <item>Готовые значки</item>
+        <item>Пользовательский значок</item>
+    </string-array>
+    <string-array name="udfps_icon_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="widget_entries">
+        <item>@string/status_bar_date_none</item>
+     	<item>@string/calculator</item>
+     	<item>@string/media</item>
+     	<item>@string/clock_timer</item>
+        <item>@string/torch</item>
+        <item>@string/weather</item>
+        <item>@string/wifi</item>
+        <item>@string/data</item>
+        <item>@string/ringer</item>
+        <item>@string/bt</item>
+        <item>@string/hotspot</item>
+        <item>@string/wallet</item>
+        <item>@string/qr_scanner</item>
+    </string-array>
+    <string-array name="widget_values">
+     	<item>none</item>
+     	<item>calculator</item>
+     	<item>media</item>
+     	<item>timer</item>
+        <item>torch</item>
+        <item>weather</item>
+        <item>wifi</item>
+        <item>data</item>
+        <item>ringer</item>
+        <item>bt</item>
+        <item>hotspot</item>
+        <item>wallet</item>
+        <item>qrscanner</item>
+    </string-array>
+    <string name="accent_color">Цвет акцента</string>
+    <string name="aod_brightness_title">Яркость AOD</string>
+    <string name="bt">Bluetooth</string>
+    <string name="calculator">Калькулятор</string>
+    <string name="clock_album_art_color_summary">Заменять цвет часов палитрой обложки альбома при воспроизведении музыки</string>
+    <string name="clock_album_art_color_title">Цвет часов по обложке альбома</string>
+    <string name="clock_size_summary">Масштаб часов на экране блокировки (50–150%)</string>
+    <string name="clock_size_title">Размер часов</string>
+    <string name="clock_timer">Часы / Таймер</string>
+    <string name="custom_clock_weather_summary">Показывать погоду на пользовательских часах экрана блокировки</string>
+    <string name="custom_clock_weather_title">Погода на экране блокировки</string>
+    <string name="custom_color">Пользовательский цвет</string>
+    <string name="custom_color_summary">Пользовательский цвет для некоторых стилей часов</string>
+    <string name="custom_widgets1">Мини-виджет 1</string>
+    <string name="custom_widgets2">Мини-виджет 2</string>
+    <string name="custom_widgets3">Мини-виджет 3</string>
+    <string name="custom_widgets4">Мини-виджет 4</string>
+    <string name="data">Мобильный интернет</string>
+    <string name="default_value">По умолчанию</string>
+    <string name="depth_wallpaper_bottom_fade_summary">Плавное затухание обоев в нижней части</string>
+    <string name="depth_wallpaper_bottom_fade_title">Затухание снизу</string>
+    <string name="depth_wallpaper_bottom_inset_summary">Настройка отступа обоев снизу</string>
+    <string name="depth_wallpaper_bottom_inset_title">Нижний отступ</string>
+    <string name="depth_wallpaper_fade_curve_summary">Настройка кривой затухания обоев</string>
+    <string name="depth_wallpaper_fade_curve_title">Кривая затухания</string>
+    <string name="depthwall_auto_subject_summary">Автоматически выделять объект с обоев для эффекта глубины</string>
+    <string name="depthwall_auto_subject_title">Автоматический объект обоев глубины</string>
+    <string name="depthwall_clear_subject_summary">Удалить текущий выделенный или заданный вручную объект</string>
+    <string name="depthwall_clear_subject_title">Очистить изображение объекта</string>
+    <string name="depthwall_extract_now_summary">Запустить извлечение объекта с обоев прямо сейчас (установите обои для экрана блокировки отдельно)</string>
+    <string name="depthwall_extract_now_title">Извлечь объект сейчас</string>
+    <string name="depthwall_file_header_select_summary">Выберите изображение объекта обоев глубины из хранилища.</string>
+    <string name="depthwall_file_header_select_title">Выбрать объект обоев глубины</string>
+    <string name="depthwall_spatial_effect_summary">Смещение слоев обоев при движении устройства для создания 3D-эффекта</string>
+    <string name="depthwall_spatial_effect_title">3D-пространственный эффект</string>
+    <string name="depthwall_spatial_sensitivity_summary">Настройка интенсивности движения в 3D-эффекте обоев</string>
+    <string name="depthwall_spatial_sensitivity_title">Чувствительность 3D-эффекта</string>
+    <string name="depthwall_footer_text">
+        Функция обоев глубины, вдохновленная сегментацией объектов обоев в iOS, позволяет накладывать объект поверх часов экрана блокировки для создания эффекта глубины обоев.\n\nКак настроить функцию обоев глубины:\n1. Установите обои с объектом или фоном, над которым должен располагаться объект.\n2. Выберите изображение объекта для отслеживания; оно будет наложено поверх часов экрана блокировки.\n3. Измените смещения и прозрачность в соответствии с вашими предпочтениями.
+    </string>
+    <string name="depthwall_wallpaper_enabled_summary">Включить обои глубины в стиле iOS. Требуется изображение объекта.</string>
+    <string name="depthwall_wallpaper_enabled_title">Обои глубины</string>
+    <string name="depthwall_wallpaper_opacity_title">Прозрачность обоев глубины</string>
+    <string name="dynamic_bar_keyguard_music_pill">Музыкальный элемент на экране блокировки</string>
+    <string name="dynamic_bar_keyguard_music_pill_summary">Показывать музыкальный плеер в виде мини-панели на экране блокировки</string>
+    <string name="enable">Включить</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект ряби при разблокировке отпечатком пальца</string>
+    <string name="enable_fingerprint_ripple_effect_title">Эффект ряби</string>
+    <string name="fp_error_vibrate_summary">Вибрировать при неудачной аутентификации по отпечатку пальца</string>
+    <string name="fp_error_vibrate_title">Вибрация при ошибке отпечатка</string>
+    <string name="fp_success_vibrate_summary">Вибрировать при успешной аутентификации по отпечатку пальца</string>
+    <string name="fp_success_vibrate_title">Вибрация при успехе отпечатка</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="hotspot">Точка доступа</string>
+    <string name="keyguard_affordance_single_tap_summary">Переключение элементов управления экрана блокировки одиночным касанием</string>
+    <string name="keyguard_afford_single_tap_title">Одиночное касание элементов управления блокировки</string>
+    <string name="keyguard_scrim_transparent_summary">Скрыть слой затемнения обоев экрана блокировки</string>
+    <string name="keyguard_scrim_transparent_title">Прозрачная подложка экрана блокировки</string>
+    <string name="kg_user_switcher_enabled_summary">Показывать переключатель пользователей при вводе PIN-кода или пароля</string>
+    <string name="kg_user_switcher_enabled_title">Переключатель пользователей</string>
+    <string name="lock_screen_custom_clock_wobble_on_charge_summary">Показывать эффект покачивания часов при подключении к зарядному устройству</string>
+    <string name="lock_screen_custom_clock_wobble_on_charge_title">Эффект покачивания при зарядке</string>
+    <string name="lock_screen_title">Экран блокировки</string>
+    <string name="lockscreen_battery_info_summary">Отображать информацию о батарее во время зарядки</string>
+    <string name="lockscreen_battery_info_title">Информация о батарее</string>
+    <string name="lockscreen_charging_time_summary">Отображать оставшееся время до окончания зарядки</string>
+    <string name="lockscreen_charging_time_title">Время зарядки на экране блокировки</string>
+    <string name="lockscreen_custom_clock_animation_category_title">Анимация</string>
+    <string name="lockscreen_custom_clock_aod_anim_summary">Установить анимацию AOD для пользовательского стиля часов</string>
+    <string name="lockscreen_custom_clock_aod_anim_title">Анимация AOD пользовательских часов</string>
+    <string name="lockscreen_custom_clock_color_category_title">Цвет</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Режим цвета пользовательских часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_start_summary">Настройка ширины пользовательского стиля часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_start_title">Ширина пользовательских часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Настройка высоты пользовательского стиля часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Высота пользовательских часов</string>
+    <string name="lockscreen_custom_clock_gradient_anchor_y_summary">Управление вертикальным центром градиента</string>
+    <string name="lockscreen_custom_clock_gradient_anchor_y_title">Точка привязки градиента</string>
+    <string name="lockscreen_custom_clock_gradient_category_title">Градиент</string>
+    <string name="lockscreen_custom_clock_gradient_enabled_summary">Применять двухцветный градиент к тексту часов вместо сплошного цвета. Переопределяет другие цветовые режимы</string>
+    <string name="lockscreen_custom_clock_gradient_enabled_title">Градиент текста</string>
+    <string name="lockscreen_custom_clock_gradient_end_title">Конечный цвет градиента</string>
+    <string name="lockscreen_custom_clock_gradient_radius_summary">Управление радиусом распространения градиента от точки привязки</string>
+    <string name="lockscreen_custom_clock_gradient_radius_title">Размах градиента</string>
+    <string name="lockscreen_custom_clock_gradient_start_title">Начальный цвет градиента</string>
+    <string name="lockscreen_custom_clock_layout_category_title">Размер и положение</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Настройка прозрачности пользовательского стиля часов</string>
+    <string name="lockscreen_custom_clock_opacity_title">Прозрачность пользовательских часов</string>
+    <string name="lockscreen_custom_clock_style_info">Пользовательский стиль часов заменяет стандартные часы AOSP на кастомные. Smartspace будет отключен. Вы можете включить и использовать пользовательскую погоду.</string>
+    <string name="lockscreen_custom_clock_style_summary">Настройка стилей часов на экране блокировки</string>
+    <string name="lockscreen_custom_clock_style_title">Пользовательский стиль часов</string>
+    <string name="lockscreen_custom_image_enabled_title">Аватар для AOD</string>
+    <string name="lockscreen_custom_image_pick_summary">Выбрать изображение AOD из галереи</string>
+    <string name="lockscreen_custom_image_summary">Установить пользовательское изображение AOD</string>
+    <string name="lockscreen_custom_image_title">Выбрать изображение AOD</string>
+    <string name="lockscreen_display_widgets_summary">Показывать виджет информации об устройстве на экране блокировки</string>
+    <string name="lockscreen_display_widgets_title">Виджет информации об устройстве</string>
+    <string name="lockscreen_doubletap_sleep_summary">Двойное нажатие на экран блокировки для выключения экрана</string>
+    <string name="lockscreen_doubletap_sleep_title">Нажмите для сна</string>
+    <string name="lockscreen_emergency_button_summary">Отображать кнопку вызова экстренных служб на экране блокировки</string>
+    <string name="lockscreen_emergency_button_title">Показывать кнопку экстренного вызова</string>
+    <string name="lockscreen_enable_power_menu_summary">Разрешить доступ к меню питания на защищенном экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_title">Меню питания</string>
+    <string name="lockscreen_interface_category">Интерфейс</string>
+    <string name="lockscreen_media_art_blur_level_summary">Интенсивность размытия при применении соответствующего фильтра</string>
+    <string name="lockscreen_media_art_blur_level_title">Уровень размытия обложки</string>
+    <string name="lockscreen_media_art_fade_level_summary">Слой затемнения для лучшей читаемости текста</string>
+    <string name="lockscreen_media_art_fade_level_title">Уровень затемнения обложки</string>
+    <string name="lockscreen_media_art_filter_summary">Выберите визуальный фильтр для обложки медиа</string>
+    <string name="lockscreen_media_art_filter_title">Фильтр обложки медиа</string>
+    <string name="lockscreen_media_art_pixel_size_summary">Настройка размера пикселей для обложки медиа на экране блокировки</string>
+    <string name="lockscreen_media_art_pixel_size_title">Размер пикселей обложки медиа</string>
+    <string name="lockscreen_smartspace_summary">Показывать Google Smartspace при доступности</string>
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_weather_category">Погода</string>
+    <string name="lockscreen_weather_humidity_info_summary">Отображать текущую влажность в процентах</string>
+    <string name="lockscreen_weather_humidity_info_title">Информация о влажности</string>
+    <string name="lockscreen_weather_location_summary">Отображать текущее местоположение погоды</string>
+    <string name="lockscreen_weather_location_title">Текущее местоположение</string>
+    <string name="lockscreen_weather_summary">Отображать свежие данные о погоде</string>
+    <string name="lockscreen_weather_text_summary">Отображать текстовую сводку текущих погодных условий</string>
+    <string name="lockscreen_weather_text_title">Текущее состояние</string>
+    <string name="lockscreen_weather_title">Обновление погоды</string>
+    <string name="lockscreen_weather_wind_info_summary">Отображать текущую скорость и направление ветра</string>
+    <string name="lockscreen_weather_wind_info_title">Информация о ветре</string>
+    <string name="lockscreen_widgets_color_mode_title">Цветовой режим виджета информации</string>
+    <string name="lockscreen_widgets_enabled_summary">Добавить виджеты на экран блокировки</string>
+    <string name="lockscreen_widgets_enabled_title">Включить виджеты экрана блокировки</string>
+    <string name="lockscreen_widgets_style1">Material скругленный</string>
+    <string name="lockscreen_widgets_style2">Material квадратный</string>
+    <string name="lockscreen_widgets_style3">Квадратный полупрозрачный</string>
+    <string name="lockscreen_widgets_style4">Скругленный полупрозрачный</string>
+    <string name="lockscreen_widgets_style5">Квадратный с размытием</string>
+    <string name="lockscreen_widgets_style6">Скругленный с размытием</string>
+    <string name="lockscreen_widgets_style_title">Стиль виджетов экрана блокировки</string>
+    <string name="lockscreen_widgets_title">Виджеты</string>
+    <string name="lockscreen_widgets_transparency_summary">Настройка уровня непрозрачности виджетов в полупрозрачном стиле</string>
+    <string name="lockscreen_widgets_transparency_title">Прозрачность полупрозрачного стиля</string>
+    <string name="ls_clock_summary">Настройка стиля часов и виджетов</string>
+    <string name="ls_clock_title">Часы экрана блокировки</string>
+    <string name="ls_media_art_summary">Отображать обложку музыкального альбома при наличии</string>
+    <string name="ls_media_art_title">Обложка альбома</string>
+    <string name="main_custom_widgets1">Большой виджет 1</string>
+    <string name="main_custom_widgets2">Большой виджет 2</string>
+    <string name="media">Медиаплеер</string>
+    <string name="misc_title">Разное</string>
+    <string name="nowplaying_artist_text_size_summary">Размер текста с именем исполнителя или альбома</string>
+    <string name="nowplaying_artist_text_size_title">Размер имени исполнителя</string>
+    <string name="nowplaying_color_mode_title">Режим цвета текста</string>
+    <string name="nowplaying_compact_style_summary">Показывать в одну строку, используя размер текста трека</string>
+    <string name="nowplaying_compact_style_title">Компактный стиль</string>
+    <string name="nowplaying_display_title">Параметры отображения</string>
+    <string name="nowplaying_expand_dialog">Развернуть диалог</string>
+    <string name="nowplaying_expand_dialog_summary">Развернуть диалоговое окно «Сейчас исполняется»</string>
+    <string name="nowplaying_icon_size_summary">Настройка размера значка</string>
+    <string name="nowplaying_icon_size_title">Размер значка</string>
+    <string name="nowplaying_icon_style_summary">Выберите отображаемый значок</string>
+    <string name="nowplaying_icon_style_title">Стиль значка</string>
+    <string name="nowplaying_info_summary">Функция «Сейчас исполняется» выводит название играющей музыки и исполнителя на экране блокировки и Always-On Display. Она автоматически появляется при воспроизведении и исчезает при остановке. Положение можно настроить от верхнего до нижнего края экрана.</string>
+    <string name="nowplaying_lyrics_mode_summary">Показывать синхронизированный текст песни вместо названия трека и значка</string>
+    <string name="nowplaying_lyrics_mode_title">Режим текста песни</string>
+    <string name="nowplaying_show_on_aod_summary">Отображать информацию о музыке на Ambient Display</string>
+    <string name="nowplaying_show_on_aod_title">Показывать на Always-On Display</string>
+    <string name="nowplaying_show_on_lockscreen_summary">Отображать информацию о музыке при заблокированном устройстве</string>
+    <string name="nowplaying_show_on_lockscreen_title">Показывать на экране блокировки</string>
+    <string name="nowplaying_summary">Показывать информацию о текущем треке на экране блокировки и AOD</string>
+    <string name="nowplaying_title">Сейчас исполняется</string>
+    <string name="nowplaying_track_text_size_summary">Размер текста названия трека</string>
+    <string name="nowplaying_track_text_size_title">Размер названия трека</string>
+    <string name="nowplaying_vertical_position_summary">Настройка положения от верха до низа экрана</string>
+    <string name="nowplaying_vertical_position_title">Верхний отступ</string>
+    <string name="pulse_bar_count_summary">Установка количества полос в визуализаторе</string>
+    <string name="pulse_bar_count_title">Количество полос</string>
+    <string name="pulse_bar_count_units">полос</string>
+    <string name="pulse_bass_haptics_always">Всегда при активном воспроизведении медиа</string>
+    <string name="pulse_bass_haptics_none">Без легкой вибрации при резких пиках баса</string>
+    <string name="pulse_bass_haptics_running">Только когда отображается пульсация</string>
+    <string name="pulse_bass_haptics_title">Вибрация под басы</string>
+    <string name="pulse_capture_mode_amplitude">Аплитуда (Волновые колебания)</string>
+    <string name="pulse_capture_mode_fft">БПФ (Частота)</string>
+    <string name="pulse_capture_mode_title">Режим захвата аудио</string>
+    <string name="pulse_color">Цвет визуализатора</string>
+    <string name="pulse_color_accent">Цвет акцента</string>
+    <string name="pulse_color_album">Обложка альбома</string>
+    <string name="pulse_color_lavalamp">Лава-лампа</string>
+    <string name="pulse_height_multiplier_summary">Настройка высоты визуализации</string>
+    <string name="pulse_height_multiplier_title">Высота пульсации</string>
+    <string name="pulse_renderer">Стиль визуализатора</string>
+    <string name="pulse_renderer_dot_wave">Точечная волна</string>
+    <string name="pulse_renderer_fading">Исчезающие блоки</string>
+    <string name="pulse_renderer_matrix">Матрица</string>
+    <string name="pulse_renderer_minimal_wave">Минималистичная волна</string>
+    <string name="pulse_renderer_neon_glow">Неоновое свечение</string>
+    <string name="pulse_renderer_particle">Частицы</string>
+    <string name="pulse_renderer_retro_vu_meter">Ретро VU-индикатор</string>
+    <string name="pulse_renderer_solid">Сплошные линии</string>
+    <string name="pulse_renderer_sparkle">Искры</string>
+    <string name="pulse_renderer_waveform">Волновая форма</string>
+    <string name="pulse_rounded_bars_summary">Отображать полосы визуализатора с закругленными углами</string>
+    <string name="pulse_rounded_bars_title">Закругленные полосы</string>
+    <string name="pulse_settings_summary">Показывать визуализатор в виде полос на экране блокировки во время воспроизведения музыки</string>
+    <string name="pulse_settings_title">Визуализатор Pulse</string>
+    <string name="pulse_show_on_ambient_summary">Отображать визуализатор на Always-On Display и в режиме Ambient. Отключите для показа только на экране блокировки.</string>
+    <string name="pulse_show_on_ambient_title">Показывать на Ambient Display</string>
+    <string name="qr_scanner">Сканер QR</string>
+    <string name="qs_clock_title">Часы</string>
+    <string name="ringer">Режим звонка</string>
+    <string name="show_on_aod_summary">Отображать обложку медиа на Always-On Display</string>
+    <string name="show_on_aod_title">Показывать на AOD</string>
+    <string name="status_bar_date_none">Скрыто</string>
+    <string name="theme_customization_lock_clock_title">Циферблат</string>
+    <string name="torch">Фонарик</string>
+    <string name="udfps_animation_offset_summary">Настройка вертикального положения анимации отпечатка пальца</string>
+    <string name="udfps_animation_offset_title">Смещение анимации UDFPS</string>
+    <string name="udfps_animation_size_summary">Настройка размера анимации отпечатка пальца</string>
+    <string name="udfps_animation_size_title">Размер анимации UDFPS</string>
+    <string name="udfps_cust_summary">Настройка значка и анимации сканера отпечатков пальцев под дисплеем</string>
+    <string name="udfps_cust_title">Значок и анимация UDFPS</string>
+    <string name="udfps_custom_footer_text">Установите любой кастомный значок в разделе готовых значков перед переключением или применением пользовательского значка. После перезагрузки устройства перезапустите SystemUI один раз, чтобы устранить проблему невидимого/пустого кастомного значка</string>
+    <string name="udfps_custom_icon_select_summary">Выберите изображение из галереи</string>
+    <string name="udfps_custom_icon_select_title">Выбрать пользовательский значок</string>
+    <string name="udfps_custom_title">Кастомизация UDFPS</string>
+    <string name="udfps_icon_aod_summary">Использовать пользовательский значок UDFPS на Always-On Display</string>
+    <string name="udfps_icon_aod_title">Значок UDFPS на AOD</string>
+    <string name="udfps_icon_picker_summary">Выберите свой любимый значок отпечатка пальца</string>
+    <string name="udfps_icon_picker_title">Готовый значок UDFPS</string>
+    <string name="udfps_icon_type_title">Тип значка</string>
+    <string name="udfps_recog_animation_effect_summary">Выберите эффект анимации</string>
+    <string name="udfps_recog_animation_effect_title">Пользовательская анимация UDFPS</string>
+    <string name="unit_pixels" translatable="false">dp</string>
+    <string name="wallet">Кошелек</string>
+    <string name="weather">Погода</string>
+    <string name="weather_settings_summary">Настройка пакета значков и службы погоды</string>
+    <string name="weather_settings_title">Настройки погоды</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="lockscreen_weather_enabled_info">Требуется настроенная служба погоды и отключенный Smartspace</string>
+    <string name="systemui_restart_title">Требуется перезапуск SystemUI</string>
+    <string name="systemui_restart_message">Чтобы изменения вступили в силу, необходим перезапуск SystemUI. Перезапустить SystemUI сейчас?</string>
+    <string name="systemui_restart_yes">Да</string>
+    <string name="systemui_restart_not_now">Не сейчас</string>
+    <string name="udfps_custom_icon_selected">Пользовательский значок применен</string>
+    <string name="depthwall_clear_subject_confirm_message">Текущее изображение объекта обоев глубины будет удалено. Продолжить?</string>
+    <string name="systemui_restart_process">Перезапуск SystemUI для применения изменений...</string>
+</resources>

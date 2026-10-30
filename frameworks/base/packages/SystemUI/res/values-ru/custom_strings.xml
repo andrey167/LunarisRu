@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP
+     SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+     <string name="accessibility_status_bar_vowifi">Вызовы по Wi-Fi</string>
+	 <!-- Title for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_title">Классические значки в строке состояния</string>
+
+    <!-- Summary for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_summary">Отображать заполненные значки Wi-Fi, сети и батареи</string>
+
+    <!-- Title for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_title">Перезапустить SystemUI?</string>
+
+    <!-- Message for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_message">Чтобы применить это изменение, необходимо перезапустить SystemUI. Хотите продолжить?</string>
+	 <!-- Accessibility text for the click action on the pager dots. This will be used following "Double-tap to..." [CHAR LIMIT=NONE] -->
+    <string name="accessibility_pager_dots_navigate_to_next_page_action">перейти к следующей странице</string>
+	<string name="dynamic_island_screen_record_short">ЗАП</string>
+    <string name="dynamic_island_screen_record_active">Идет запись</string>
+    <string name="dynamic_island_screen_record_countdown">Начало через %1$s с</string>
+    <string name="dynamic_island_alarm_title">Следующий будильник</string>
+    <string name="dynamic_island_flashlight_enabled">Включено</string>
+    <string name="dynamic_island_flashlight_short">ВКЛ</string>
+    <string name="dynamic_island_open_action">Открыть</string>
+    <string name="dynamic_island_open_clock_action">Открыть часы</string>
+    <string name="dynamic_island_stopwatch_title">Секундомер</string>
+    <string name="dynamic_island_alarm_active_title">Будильник</string>
+    <string name="dynamic_island_action_snooze">Отложить</string>
+    <string name="dynamic_island_action_lap">Круг</string>
+    <string name="dynamic_island_action_stop">Стоп</string>
+    <string name="dynamic_island_action_resume">Продолжить</string>
+	<string name="volume_panel_expand_sliders">Развернуть регуляторы громкости</string>
+</resources>

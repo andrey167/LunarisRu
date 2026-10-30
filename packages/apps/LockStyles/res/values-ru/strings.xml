@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Lunaris-AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name" translatable="false">Lock Styles</string>
+    <string name="lock_settings">Настройки экрана блокировки</string>
+    <string name="apply_change">Применить</string>
+    <string name="gallery_applied">Экран блокировки применен</string>
+    <string name="clock_style_in_gallery">Стиль часов</string>
+    <string name="clock_style_in_gallery_summary">Стиль, цвет и размер, настраиваемые для каждого экрана блокировки в разделе «Настроить»</string>
+    <string name="notifications_above_clock_title">Уведомления над часами</string>
+    <string name="notifications_above_clock_summary">Показывать уведомления ближе к верху экрана блокировки (поверх кастомных часов), чтобы стили на весь экран не смещали их за пределы экрана</string>
+    <string name="depth_in_gallery">Включите эффект глубины для текущих обоев здесь или для сохраненного фото на экране блокировки в разделе «Настроить». Регулировка положения и затухания применяется ко всем обоям глубины.</string>
+    <string name="credits_title">Авторы и благодарности</string>
+    <string name="credits_wallwidgy">Обои из WallWidgy</string>
+    <string name="credits_gallery">Галерея экрана блокировки в стиле iOS из PenguinOS</string>
+    <string name="credits_singularity">Настройки экрана блокировки из Singularity</string>
+    <string name="credits_ax_blur">Материал размытия стекла из ax_blur (AxionOS)</string>
+    <string name="clock_font_default">По умолчанию</string>
+    <string name="depthwall_extract_unavailable">Инструмент извлечения объектов в настройках недоступен</string>
+    <string name="depthwall_subject_save_failed">Не удалось сохранить изображение объекта. Предыдущее изображение осталось без изменений.</string>
+    <string name="depthwall_apply_failed">Обои применены, но извлечение глубины не завершилось. Повторите попытку в настройках обоев глубины.</string>
+    <string name="gallery_apply_failed">Не удалось применить обои. Попробуйте еще раз.</string>
+    <string name="depth_wallpaper_offset_x_title">Горизонтальное положение объекта</string>
+    <string name="depth_wallpaper_offset_y_title">Вертикальное положение объекта</string>
+    <string name="custom_clock_rotation_title">Поворот часов</string>
+    <string name="clock_tilt_x_title">Наклон вокруг горизонтальной оси</string>
+    <string name="clock_tilt_y_title">Наклон вокруг вертикальной оси</string>
+    <string name="lock_screen_custom_clock_hyper_blur_title">Смешение цветов размытия</string>
+    <string name="gallery_clock_colour_hex">HEX-код цвета (RRGGBB или AARRGGBB)</string>
+    <string name="depthwall_extracting_toast">Извлечение объекта с обоев…</string>
+</resources>

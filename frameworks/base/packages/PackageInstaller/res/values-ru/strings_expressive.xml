@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="installer_package_id">Идентификатор пакета</string>
+    <string name="installer_size">Размер пакета</string>
+    <string name="installer_version">Версия</string>
+    <!-- Installed version followed by the version being installed. -->
+    <string name="installer_version_change" translatable="false">%1$s → %2$s</string>
+    <!-- Accessibility description of the installed and incoming app versions. -->
+    <string name="installer_version_change_description">Версия с %1$s до %2$s</string>
+    <string name="installer_target_sdk">Целевой Android</string>
+    <string name="installer_sdk_value">API %1$d</string>
+    <string name="installer_detail_unavailable">Недоступно</string>
+    <string name="installer_install_hint">Все готово, когда вы будете готовы</string>
+    <string name="installer_update_hint">Готова новая версия</string>
+    <string name="installer_staging_hint">Все подготавливается</string>
+    <string name="installer_installing_hint">Секунду</string>
+    <string name="installer_success_hint">Все готово</string>
+    <string name="installer_uninstall_hint">Управление этим приложением</string>
+    <string name="installer_archiving">Архивация…</string>
+</resources>

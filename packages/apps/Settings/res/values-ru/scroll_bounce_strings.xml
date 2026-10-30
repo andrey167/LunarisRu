@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP
+     SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="settings_scroll_bounce_title">Анимация прокрутки</string>
+    <string name="settings_scroll_bounce_summary">Упругая прокрутка и настройка пружин</string>
+    <string name="settings_scroll_bounce_enabled">Использовать пружинную прокрутку</string>
+    <string name="settings_scroll_bounce_enabled_summary">Плавный отскок контента при достижении границ страницы</string>
+    <string name="settings_scroll_stiffness_title">Жесткость пружины</string>
+    <string name="settings_scroll_stiffness_summary">Высокие значения ускоряют возврат в исходное положение</string>
+    <string name="settings_scroll_damping_title">Затухание отскока</string>
+    <string name="settings_scroll_damping_summary">Низкие значения делают возврат более упругим</string>
+    <string name="settings_scroll_stretch_title">Максимальный выход за границы</string>
+    <string name="settings_scroll_stretch_summary">Насколько далеко контент может смещаться за пределы прокрутки</string>
+    <string name="settings_scroll_velocity_title">Реакция на инерцию</string>
+    <string name="settings_scroll_velocity_summary">Сила отскока при быстром свайпе в конце списка</string>
+    <string name="settings_scroll_bounce_footer">Применяется во всех Настройках, включая главный экран Compose. Изменения вступят в силу при следующей прокрутке.</string>
+</resources>
