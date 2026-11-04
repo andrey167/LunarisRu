@@ -1,0 +1,35 @@
+<resources>
+    <string name="extra_info_title">Дополнительные информационные виджеты</string>
+    <string name="extra_info_summary">Выбирайте дизайны ClockMorph для размещения в строках или расположите до пяти виджетов в любом месте экрана блокировки. При включении заменяет стандартные информационные виджеты устройства.</string>
+    <string name="extra_info_blur">Размытие фона виджетов</string>
+    <string name="extra_info_blur_summary">Смягчает изображение обоев за карточками виджетов</string>
+    <string name="extra_info_preview">Предпросмотр виджетов · пример данных</string>
+    <string name="extra_info_empty">Выберите виджеты для любой из строк, чтобы начать</string>
+    <string name="extra_info_capacity">Количество ячеек в строке</string>
+    <string name="extra_info_slots">%1$d ячеек</string>
+    <string name="extra_info_layout_hint">Маленькие виджеты занимают одну ячейку, широкие — две, а встроенные виджеты заполняют всю строку. Перед уменьшением количества ячеек в заполненной строке с пяти до четырёх удалите один из виджетов.</string>
+    <string name="extra_info_row">Строка %1$d · %2$d/%3$d ячеек</string>
+    <string name="extra_info_choose">Выбрать виджеты</string>
+    <string name="extra_info_move_before">Переместить выше в строке</string>
+    <string name="extra_info_move_after">Переместить ниже в строке</string>
+    <string name="extra_info_remove">Удалить %1$s</string>
+    <string name="extra_info_picker_hint">Нажмите на дизайн, чтобы добавить его в эту строку. Нажмите на выбранный дизайн, чтобы удалить его. Дизайны, которые не помещаются, отображаются затемнёнными.</string>
+    <string name="extra_info_selected">Выбрано в строке %1$d</string>
+    <string name="extra_info_mode">Размещение</string>
+    <string name="extra_info_mode_rows">Две строки</string>
+    <string name="extra_info_mode_independent">Свободное размещение</string>
+    <string name="extra_info_independent_hint">Размещайте до пяти виджетов в любом месте, в том числе поверх часов. Положение часов, уведомлений и других элементов не меняется. Макет из двух строк сохраняется отдельно.</string>
+    <string name="extra_info_edit_positions">Изменить положение и размер виджетов</string>
+    <string name="extra_info_editor_title">Расположение виджетов</string>
+    <string name="extra_info_editor_hint">Перетащите виджет, чтобы переместить его. Выберите виджет ниже, чтобы изменить его размер или положение либо удалить его. В предпросмотре используются примеры данных.</string>
+    <string name="extra_info_widget_count">%1$d / %2$d виджетов</string>
+    <string name="extra_info_add_widget">Добавить виджет</string>
+    <string name="extra_info_limit">Не более 5 виджетов</string>
+    <string name="extra_info_save">Сохранить</string>
+    <string name="extra_info_size">Размер</string>
+    <string name="extra_info_horizontal">По горизонтали</string>
+    <string name="extra_info_vertical">По вертикали</string>
+    <string name="extra_info_front">На передний план</string>
+    <string name="extra_info_select_hint">Добавьте виджет, а затем перетащите его в любое место на экране предпросмотра.</string>
+    <string name="extra_info_picker_independent_hint">Выберите дизайн, чтобы добавить его в область предпросмотра. Можно свободно разместить до пяти виджетов.</string>
+</resources>

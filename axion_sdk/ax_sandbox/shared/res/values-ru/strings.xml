@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pin_title_create">Создание PIN-кода</string>
+    <string name="pin_title_confirm">Подтверждение PIN-кода</string>
+    <string name="pin_title_enter">Введите PIN-код</string>
+    <string name="pin_prompt_create">Выберите 4-значный PIN-код</string>
+    <string name="pin_prompt_confirm">Введите PIN-код еще раз</string>
+    <string name="pin_prompt_unlock">Введите PIN-код для доступа к скрытым приложениям</string>
+    <string name="pin_error_mismatch">PIN-коды не совпадают. Попробуйте снова или вернитесь назад.</string>
+    <string name="pin_error_incorrect">Неверный PIN-код</string>
+    <string name="action_biometric_unlock">Разблокировка по биометрии</string>
+    <string name="action_backspace">Удалить</string>
+    <string name="action_forgot_password">Забыли пароль?</string>
+
+    <string name="password_title_create">Создание пароля</string>
+    <string name="password_title_confirm">Подтверждение пароля</string>
+    <string name="password_title_enter">Введите пароль</string>
+    <string name="password_prompt_create">Придумайте надежный пароль</string>
+    <string name="password_prompt_confirm">Введите пароль еще раз</string>
+    <string name="password_prompt_unlock">Введите пароль для доступа к скрытым приложениям</string>
+    <string name="password_error_mismatch">Пароли не совпадают. Попробуйте снова или вернитесь назад.</string>
+    <string name="password_error_incorrect">Неверный пароль</string>
+    <string name="password_label">Пароль</string>
+    <string name="password_placeholder">Введите пароль</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_set_password">Установить пароль</string>
+    <string name="action_show_password">Показать</string>
+    <string name="action_hide_password">Скрыть</string>
+
+    <string name="pattern_title_create">Создание графического ключа</string>
+    <string name="pattern_title_confirm">Подтверждение ключа</string>
+    <string name="pattern_title_enter">Нарисуйте графический ключ</string>
+    <string name="pattern_prompt_create">Соедините не менее 4 точек</string>
+    <string name="pattern_prompt_confirm">Нарисуйте ключ еще раз</string>
+    <string name="pattern_prompt_unlock">Нарисуйте графический ключ для доступа к скрытым приложениям</string>
+    <string name="pattern_error_mismatch">Ключи не совпадают</string>
+    <string name="pattern_error_incorrect">Неверный графический ключ</string>
+    <string name="pattern_error_too_short">Соедините не менее 4 точек</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP
+     SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="emoji_stock">Стандартные</string>
+    <string name="emoji_description">Выберите собственный набор эмодзи или загрузите новый стиль.</string>
+    <string name="emoji_current">Текущие эмодзи</string>
+    <string name="emoji_import">Выбрать шрифт эмодзи</string>
+    <string name="emoji_import_description">Предварительный просмотр шрифта эмодзи TTF с вашего устройства</string>
+    <string name="emoji_online">В сети</string>
+    <string name="emoji_search">Поиск стилей эмодзи</string>
+    <string name="emoji_selected">Выбрано</string>
+    <string name="emoji_apply">Применить эмодзи</string>
+    <string name="emoji_apply_description">Приложения, использующие системные эмодзи, перейдут на этот стиль после перезапуска. После применения можно перезапустить System UI и работающие приложения.</string>
+    <string name="emoji_download">Скачать</string>
+    <string name="emoji_download_apply">Скачать и применить</string>
+    <string name="emoji_delete_download">Удалить загрузку</string>
+    <string name="emoji_reading">Подготовка предварительного просмотра эмодзи</string>
+    <string name="emoji_applying">Применение %1$s</string>
+    <string name="emoji_downloading">Загрузка %1$s</string>
+    <string name="emoji_downloaded_message">%1$s загружен. Найти его можно в разделе «На устройстве».</string>
+    <string name="emoji_deleting">Удаление загруженных эмодзи</string>
+    <string name="emoji_deleted">Загруженные эмодзи удалены</string>
+    <string name="emoji_restoring">Восстановление стандартных эмодзи</string>
+    <string name="emoji_restore">Использовать стандартные эмодзи</string>
+    <string name="emoji_restore_title">Восстановить стандартные эмодзи?</string>
+    <string name="emoji_restore_description">Стандартные эмодзи вернутся после перезапуска System UI и приложений. Эмодзи, скопированные в приложения, будут восстановлены, а загрузка их шрифтов снова станет доступна. Сохранённые загрузки останутся без изменений.</string>
+    <string name="emoji_restart">Перезапустить System UI и приложения</string>
+    <string name="emoji_restart_pending">Перезапустите приложения, чтобы использовать выбранные эмодзи.</string>
+    <string name="emoji_restart_description">System UI будет перезапущен, а работающие приложения закрыты, чтобы они загрузили выбранные эмодзи. Сервисы Google Play и постоянно работающие системные приложения продолжат работу. Если выбрать «Позже», приложения перейдут на новые эмодзи при следующем запуске.</string>
+    <string name="emoji_update_apps">Обновить эмодзи в приложениях</string>
+    <string name="emoji_apps_description">Использовать выбранные эмодзи в приложениях, которые используют собственные шрифты.</string>
+    <string name="emoji_apps_confirmation">Это заменит шрифты эмодзи в таких приложениях, как Facebook и Messenger, и очистит их кэш шрифтов. Затронутые приложения могут быть закрыты. Поставщик шрифтов Google будет отключён до восстановления стандартных эмодзи.</string>
+    <string name="emoji_updating_apps">Обновление эмодзи в приложениях</string>
+    <string name="emoji_catalog_failed">Не удалось загрузить список онлайн-эмодзи. Сохранённые стили по-прежнему доступны.</string>
+    <string name="emoji_retry">Нажмите, чтобы повторить попытку</string>
+    <string name="emoji_no_results">Подходящие стили эмодзи не найдены</string>
+    <string name="emoji_invalid_file">Выберите корректный шрифт TTF, содержащий эмодзи.</string>
+    <string name="emoji_not_installed">Сначала выберите и примените шрифт эмодзи.</string>
+    <string name="emoji_updater_disabled">Пользовательские эмодзи недоступны на этом устройстве.</string>
+    <string name="emoji_verification_failed">Не удалось обеспечить безопасность выбранного шрифта эмодзи. Попробуйте другой файл.</string>
+    <string name="emoji_download_failed">Не удалось загрузить этот шрифт эмодзи. Проверьте подключение к интернету и попробуйте снова.</string>
+    <string name="emoji_checksum_failed">Загруженный шрифт не соответствует каталогу. Попробуйте загрузить его ещё раз.</string>
+    <string name="emoji_state_failed">Не удалось сохранить выбранные эмодзи. Попробуйте ещё раз.</string>
+    <string name="emoji_operation_failed">Не удалось обновить эмодзи. Попробуйте ещё раз.</string>
+    <plurals name="emoji_apps_updated">
+        <item quantity="one">Обновлён %d шрифт эмодзи в приложениях</item>
+        <item quantity="few">Обновлено %d шрифта эмодзи в приложениях</item>
+        <item quantity="many">Обновлено %d шрифтов эмодзи в приложениях</item>
+        <item quantity="other">Обновлено %d шрифта эмодзи в приложениях</item>
+    </plurals>
+</resources>

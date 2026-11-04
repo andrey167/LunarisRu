@@ -58,6 +58,16 @@
     <string name="doze_gesture_ambient_summary">Показывать экран блокировки в режиме Ambient вместо полного пробуждения экрана</string>
     <string name="gesture_wake_ambient">Показывать Ambient</string>
     <string name="gesture_wake">Полное пробуждение</string>
+    <!-- Lock screen display timeout -->
+    <string name="lockscreen_display_timeout_title">Тайм-аут экрана блокировки</string>
+    <string name="lockscreen_display_timeout_10s">10 секунд (по умолчанию)</string>
+    <string name="lockscreen_display_timeout_15s">15 секунд</string>
+    <string name="lockscreen_display_timeout_30s">30 секунд</string>
+    <string name="lockscreen_display_timeout_1m">1 минута</string>
+    <string name="lockscreen_display_timeout_2m">2 минуты</string>
+    <string name="lockscreen_display_timeout_5m">5 минут</string>
+    <string name="lockscreen_display_timeout_10m">10 минут</string>
+    <string name="lockscreen_display_timeout_30m">30 минут</string>
 
     <!-- Wake gestures haptics -->
     <string name="doze_gesture_vibrate_title">Виброотклик</string>
@@ -150,10 +160,6 @@
     <string name="lunaris_processor_code_title">Процессор</string>
     <string name="lunaris_battery_type_title">Батарея</string>
     <string name="lunaris_screen_title">Экран</string>
-    <string name="lunaris_device_message">ICorn 10 Pro Max</string>
-    <string name="lunaris_processor_code_message">Chicken Nuggets® 52</string>
-    <string name="lunaris_battery_type_message">15000 мАч</string>
-    <string name="lunaris_screen_message">ЭЛТ-монитор (CRT) 24 Гц</string>
     <string name="lunaris_build_type">Тип пакета сборки</string>
 
     <!-- Data Usage Cycle -->
@@ -355,7 +361,7 @@
     <string name="power_insight_capacity_health">Здоровье емкости</string>
     <string name="power_insight_cycle_count">Количество циклов</string>
     <string name="power_insight_cycle_health">Износ по циклам</string>
-    <string name="power_insight_health_weighting_note">Рассчитывается как 70% емкости + 30% циклов.</string>
+    <string name="power_insight_health_weighting_note">Рассчитывается как 70%% емкости + 30%% циклов.</string>
     <string name="power_insight_overall">Общее</string>
     <string name="power_insight_health_a11y">Общее состояние батареи <xliff:g id="percent" example="87">%1$d</xliff:g> процентов</string>
     <string name="power_insight_group_general">Общие</string>
@@ -417,4 +423,9 @@
     <!-- Backup -->
     <string name="local_app_backup_restore_title">Локальное резервное копирование и восстановление</string>
     <string name="local_app_backup_restore_summary">Сохранение APK-файлов и данных приложений в виде обычных tar-архивов во внутренней памяти</string>
+
+    <!-- Dark theme schedule option using the device light sensor. [CHAR LIMIT=40] -->
+    <string name="dark_ui_auto_mode_ambient">По датчику освещенности</string>
+    <!-- Dark theme summary when ambient light scheduling is selected. [CHAR LIMIT=NONE] -->
+    <string name="dark_ui_summary_auto_mode_ambient">Адаптируется к окружающему освещению при включении экрана</string>
 </resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ax_search_action_google_query_title">Искать «%1$s» в Google</string>
+    <string name="ax_search_action_web_query_title">Искать «%1$s» в интернете</string>
+    <string name="ax_search_action_store_query_title">Искать «%1$s» в Play Маркете</string>
+    <string name="ax_search_action_maps_title">Искать на Картах</string>
+    <string name="ax_search_action_youtube_title">Искать на YouTube</string>
+    <string name="ax_search_action_spotify_title">Искать в Spotify</string>
+    <string name="ax_search_action_youtube_music_title">Искать в YouTube Music</string>
+    <string name="ax_search_action_show_more_results">Показать больше результатов</string>
+    <string name="ax_search_action_app_title">Искать в приложении %1$s</string>
+    <string name="ax_search_action_call_contact_title">Позвонить: %1$s</string>
+    <string name="ax_search_action_message_contact_title">Написать: %1$s</string>
+    <string name="ax_search_action_image_subtitle">Изображение</string>
+    <string name="ax_search_action_file_subtitle">Файл</string>
+    <string name="ax_search_action_settings_subtitle">Настройки</string>
+    <string name="ax_search_action_contact_subtitle">Контакт</string>
+</resources>

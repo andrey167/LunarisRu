@@ -1,0 +1,7 @@
+<resources>
+    <string name="info_background_title">Фон информационного виджета</string>
+    <string name="info_background_design">Оригинальный дизайн</string>
+    <string name="info_background_ax_blur">Размытие AX</string>
+    <string name="info_background_liquid_glass">Жидкое стекло</string>
+    <string name="info_background_glass_help">Настройте эффект стекла на карточках виджетов. Оттенок зависит от выбранного цвета виджета. Эти настройки применяются как к строкам, так и к отдельным виджетам.</string>
+</resources>

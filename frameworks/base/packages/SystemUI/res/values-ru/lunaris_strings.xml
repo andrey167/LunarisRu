@@ -53,9 +53,17 @@
 
     <!-- Disable stacked mobile icons -->
     <string name="disable_stacked_mobile_icons_title">Отключить объединенный значок данных</string>
+    
+    <string name="status_bar_small_network_type_title">Small network type icon</string>
 
     <!-- 4G icon instead LTE -->
     <string name="fourg_icon_title">Значок 4G</string>
+
+    <!-- 5G SA icon -->
+    <string name="status_bar_fiveg_sa_icon_title">Индикатор 5G</string>
+    <string name="status_bar_fiveg_sa_icon_default">По умолчанию (5G SA)</string>
+    <string name="status_bar_fiveg_sa_icon_plus">5G+</string>
+    <string name="status_bar_fiveg_sa_icon_only">5G</string>
 
     <!-- Weather -->
     <string name="weather_condition_clouds">Облачно</string>

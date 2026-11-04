@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clock_glass_material">Жидкое стекло</string>
+    <string name="clock_glass_date_material">Жидкое стекло для даты</string>
+    <string name="clock_glass_tint_help">Эффект стекла подстраивается под обои. Непрозрачность цвета смешивается с выбранным цветом текста. Мягкий оттенок по краям плавно меняется от белого к цветам обоев.</string>
+    <string name="clock_glass_blur_radius">Размытие стекла</string>
+    <string name="clock_glass_glyph_blur">Мягкость краёв текста</string>
+    <string name="clock_glass_tint_opacity">Непрозрачность цвета</string>
+    <string name="clock_glass_contrast">Усиление контрастности</string>
+    <string name="clock_glass_rim_strength">Интенсивность краевого свечения</string>
+    <string name="clock_glass_rim_rotation">Поворот краевого свечения</string>
+    <string name="clock_glass_soft_rim_strength">Интенсивность мягкого краевого свечения</string>
+    <string name="clock_glass_soft_rim_width">Ширина мягкого краевого свечения</string>
+    <string name="clock_glass_soft_rim_tint">Оттенок мягкого краевого свечения</string>
+    <string name="clock_glass_refraction">Интенсивность преломления</string>
+    <string name="clock_glass_refraction_width">Ширина преломления</string>
+    <string name="clock_glass_chromatic">Хроматическая аберрация</string>
+    <string name="clock_glass_shadow">Интенсивность тени стекла</string>
+    <string name="clock_glass_rim_width">Толщина краевого свечения</string>
+    <string name="clock_glass_black_border">Чёрная рамка</string>
+    <string name="clock_glass_black_border_strength">Интенсивность чёрной рамки</string>
+    <string name="clock_glass_separate_clock">Отдельная настройка преломления и краевого свечения часов</string>
+    <string name="clock_glass_clock_refraction">Интенсивность преломления часов</string>
+    <string name="clock_glass_clock_refraction_width">Ширина преломления часов</string>
+    <string name="clock_glass_clock_rim">Краевое свечение часов</string>
+    <string name="clock_glass_separate_date">Отдельное оформление даты</string>
+    <string name="clock_glass_separate_date_refraction">Отдельная настройка преломления и краевого свечения даты</string>
+    <string name="clock_glass_date_refraction">Интенсивность преломления даты</string>
+    <string name="clock_glass_date_refraction_width">Ширина преломления даты</string>
+    <string name="clock_glass_date_rim">Краевое свечение даты</string>
+    <string name="clock_glass_reset">Сбросить настройки стекла</string>
+</resources>

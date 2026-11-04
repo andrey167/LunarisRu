@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP -->
+<resources>
+    <string name="edge_aurora_title">Краевая аура</string>
+    <string name="edge_aurora_enable">Использовать краевую ауру</string>
+    <string name="edge_aurora_summary">Каждое приложение подсвечивается своим цветом. Нажмите или удерживайте подсветку, чтобы открыть уведомление.</string>
+    <string name="edge_aurora_instructions">Добавьте приложения или группы ниже. Используйте выбранное действие нажатия или удержания, чтобы открыть панель уведомлений подсветки, развернуть уведомление для чтения и ответить на него, если приложение поддерживает такую возможность. Если выбрано нажатие, удерживайте подсветку, чтобы переместить её. Также можно перемещать подсветки в окне предварительного просмотра настроек. Потяните панель внутрь экрана или нажмите «Плавающее окно», чтобы превратить её в перемещаемый пузырёк. Перетащите его обратно на подсветку, чтобы закрепить, или на кнопку «Очистить», чтобы удалить уведомления. Краевая аура может работать одновременно с Edge Light и автоматически приостанавливается во время работы GameSpace.</string>
+    <string name="edge_aurora_glows">Ваши подсветки</string>
+    <string name="edge_aurora_add">Добавить подсветку</string>
+    <string name="edge_aurora_add_app">Добавить приложение</string>
+    <string name="edge_aurora_add_group">Создать группу</string>
+    <string name="edge_aurora_group_summary">Объедините несколько приложений одним цветом и расположите их в одном месте на краю экрана</string>
+    <string name="edge_aurora_new_group">Новая группа</string>
+    <string name="edge_aurora_search">Поиск приложений</string>
+    <string name="edge_aurora_loading">Загрузка приложений…</string>
+    <string name="edge_aurora_no_apps">Приложения не найдены</string>
+    <string name="edge_aurora_no_user_apps">Нет доступных приложений. Включите параметр «Показывать системные приложения», чтобы увидеть все приложения.</string>
+    <plurals name="edge_aurora_picker_app_count">
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+        <item quantity="other">%d приложения</item>
+    </plurals>
+    <string name="edge_aurora_picker_selected">%1$s · выбрано: %2$d</string>
+    <string name="edge_aurora_unavailable_app">Недоступное приложение</string>
+    <string name="edge_aurora_save_failed">Не удалось сохранить выбранные приложения. Попробуйте ещё раз.</string>
+    <string name="edge_aurora_limit">Не удалось сохранить дополнительные настройки подсветки. Удалите неиспользуемую подсветку или группу и попробуйте снова.</string>
+    <string name="edge_aurora_interaction">Взаимодействие</string>
+    <string name="edge_aurora_auto_hide">Автоматически скрывать подсветки</string>
+    <string name="edge_aurora_auto_hide_summary">Скрывать подсветки по истечении выбранного времени. Уведомления останутся в шторке.</string>
+    <string name="edge_aurora_auto_hide_timeout">Скрывать через</string>
+    <string name="edge_aurora_popup_blur">Размытие всплывающих уведомлений</string>
+    <string name="edge_aurora_popup_blur_summary">Использовать эффект размытия фона за панелями уведомлений. Отключите, чтобы использовать сплошной фон.</string>
+    <string name="edge_aurora_open_action">Открытие панели уведомлений</string>
+    <string-array name="edge_aurora_open_action_entries">
+        <item>Нажатие на подсветку</item>
+        <item>Удержание подсветки</item>
+    </string-array>
+    <string-array name="edge_aurora_open_action_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="edge_aurora_auto_peek">Автоматически открывать уведомления</string>
+    <string name="edge_aurora_auto_peek_summary">Автоматически показывать панель предварительного просмотра новых уведомлений при разблокированном экране</string>
+    <string name="edge_aurora_peek_timeout">Сворачивать через</string>
+    <string name="edge_aurora_only_edge">Только краевая подсветка</string>
+    <string name="edge_aurora_only_edge_summary">Заменять всплывающие уведомления для настроенных приложений краевой подсветкой, пока она активна. Звуки уведомлений и шторка продолжат работать в обычном режиме.</string>
+    <string name="edge_aurora_quiet">Приостанавливать при использовании</string>
+    <string name="edge_aurora_quiet_summary">Приостанавливать подсветку, пока выбраныe приложения открыты. Ожидающие уведомления появятся после выхода из них.</string>
+    <string name="edge_aurora_screen">Экран блокировки и выключенный экран</string>
+    <string name="edge_aurora_lock_screen">Подсветка на экране блокировки</string>
+    <string name="edge_aurora_lock_screen_summary">Учитывать настройки видимости уведомлений и конфиденциальности экрана блокировки</string>
+    <string name="edge_aurora_wake">Фоновая подсветка уведомлений</string>
+    <string name="edge_aurora_wake_summary">Ненадолго показывать подсветки на затемнённом экране Always On Display. Если датчик приближения закрыт, экран останется выключенным.</string>
+    <string name="edge_aurora_brightness">Яркость фоновой подсветки</string>
+    <string name="edge_aurora_timeout">Длительность фоновой подсветки</string>
+    <string name="edge_aurora_clock">Показывать часы</string>
+    <string name="edge_aurora_profile_enabled">Включить эту подсветку</string>
+    <string name="edge_aurora_name">Название группы</string>
+    <string name="edge_aurora_members">Приложения в этой группе</string>
+    <string name="edge_aurora_drag_hint">Перетащите подсветку в окне предварительного просмотра или нажмите на другой край экрана. Если несколько подсветок загораются одновременно, они будут делить доступное пространство.</string>
+    <string name="edge_aurora_appearance">Внешний вид</string>
+    <string name="edge_aurora_edge">Расположение</string>
+    <string name="edge_aurora_palette">Готовые цвета</string>
+    <string name="edge_aurora_color">Пользовательский цвет</string>
+    <string name="edge_aurora_recent_colors">Недавние пользовательские цвета</string>
+    <string name="edge_aurora_motion">Анимация</string>
+    <string name="edge_aurora_shape">Форма</string>
+    <string name="edge_aurora_position">Положение</string>
+    <string name="edge_aurora_length">Длина</string>
+    <string name="edge_aurora_thickness">Толщина</string>
+    <string name="edge_aurora_bloom">Свечение</string>
+    <string name="edge_aurora_try">Проверить на этом устройстве</string>
+    <string name="edge_aurora_try_summary">Показывать эту подсветку в течение шести секунд</string>
+    <string name="edge_aurora_notification_settings">Настройки уведомлений приложения</string>
+    <string name="edge_aurora_remove">Удалить подсветку</string>
+    <string name="edge_aurora_preview_description">Предварительный просмотр краевой ауры в реальном времени</string>
+    <string name="edge_aurora_profile_summary">%1$s · %2$s · %3$s</string>
+    <string name="edge_aurora_on">Включено</string>
+    <string name="edge_aurora_off">Выключено</string>
+    <string name="edge_aurora_members_count">%1$d приложений</string>
+    <string-array name="edge_aurora_edges">
+        <item>Слева</item>
+        <item>Справа</item>
+        <item>Сверху</item>
+        <item>Снизу</item>
+    </string-array>
+    <string-array name="edge_aurora_edge_values" translatable="false">
+        <item>LEFT</item>
+        <item>RIGHT</item>
+        <item>TOP</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string-array name="edge_aurora_motions">
+        <item>Дыхание</item>
+        <item>Аврора</item>
+        <item>Комета</item>
+        <item>Пульсация</item>
+        <item>Угли</item>
+        <item>Неон</item>
+        <item>Волна</item>
+    </string-array>
+    <string-array name="edge_aurora_motion_values" translatable="false">
+        <item>BREATHE</item>
+        <item>AURORA</item>
+        <item>COMET</item>
+        <item>PULSE</item>
+        <item>EMBER</item>
+        <item>NEON</item>
+        <item>WAVE</item>
+    </string-array>
+    <string-array name="edge_aurora_motion_descriptions">
+        <item>Медленное и плавное усиление и затухание свечения</item>
+        <item>Плавное смешивание и переливание соседних оттенков</item>
+        <item>Яркий световой след движется вдоль края экрана</item>
+        <item>Волны света расходятся от центра, словно сердцебиение</item>
+        <item>Тёплые искры мерцают вдоль полосы</item>
+        <item>Чёткая неоновая полоса с лёгким мерцанием</item>
+        <item>Мягкие световые волны движутся вдоль края экрана</item>
+    </string-array>
+    <string-array name="edge_aurora_colors">
+        <item>Розовый</item>
+        <item>Коралловый</item>
+        <item>Золотой</item>
+        <item>Мятный</item>
+        <item>Бирюзовый</item>
+        <item>Синий</item>
+        <item>Фиолетовый</item>
+        <item>Лавандовый</item>
+        <item>Маджента</item>
+        <item>Белый</item>
+    </string-array>
+    <string-array name="edge_aurora_color_values" translatable="false">
+        <item>#FF5C8A</item>
+        <item>#FF7A59</item>
+        <item>#FFC857</item>
+        <item>#5CFF9E</item>
+        <item>#5CE1E6</item>
+        <item>#6C8CFF</item>
+        <item>#8B7CFF</item>
+        <item>#C77DFF</item>
+        <item>#FF6AD5</item>
+        <item>#F4F5F8</item>
+    </string-array>
+    <string-array name="edge_aurora_peek_time_entries">
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>11 секунд</item>
+        <item>12 секунд</item>
+        <item>13 секунд</item>
+        <item>14 секунд</item>
+        <item>15 секунд</item>
+        <item>16 секунд</item>
+        <item>17 секунд</item>
+        <item>18 секунд</item>
+        <item>19 секунд</item>
+        <item>20 секунд</item>
+        <item>21 секунда</item>
+        <item>22 секунды</item>
+        <item>23 секунды</item>
+        <item>24 секунды</item>
+        <item>25 секунд</item>
+        <item>26 секунд</item>
+        <item>27 секунд</item>
+        <item>28 секунд</item>
+        <item>29 секунд</item>
+        <item>30 секунд</item>
+        <item>До закрытия</item>
+    </string-array>
+    <string-array name="edge_aurora_peek_time_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+</resources>

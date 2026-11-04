@@ -128,4 +128,24 @@
     <string name="universal_search_hint">Поиск приложений и не только</string>
     <string name="search_toggle_on">Вкл.</string>
     <string name="search_toggle_off">Выкл.</string>
+    <string name="search_glanceable_title">Карточка быстрой сводки</string>
+    <string name="search_glanceable_summary">Показывать предстоящие события календаря, будильники или данные о батарее до ввода запроса</string>
+    <string name="search_section_recent_downloads">Недавние загрузки</string>
+    <string name="search_recent_downloads_title">Недавние загрузки</string>
+    <string name="search_recent_downloads_summary">Показывать недавно загруженные файлы до ввода запроса</string>
+
+    <!-- Наложение Spotlight -->
+<string name="spotlight_clear_query">Очистить поиск</string>
+<string name="spotlight_top_hit">Лучший результат</string>
+<string name="spotlight_hint">Поиск</string>
+<string name="spotlight_closed">Поиск закрыт</string>
+<string name="spotlight_no_results">По запросу «%1$s» ничего не найдено</string>
+<string name="spotlight_voice">Голосовой поиск</string>
+<string name="spotlight_clipboard_link">Ссылка в буфере обмена</string>
+<string name="spotlight_open_link">Открыть ссылку</string>
+<string name="spotlight_now_playing">Сейчас воспроизводится</string>
+<string name="spotlight_suggestions">Предложения</string>
+<string name="spotlight_play">Воспроизвести: %1$s</string>
+<string name="search_pref_spotlight_suggestions">Предложения Spotlight</string>
+<string name="search_pref_spotlight_suggestions_summary">Предлагаемые приложения, скопированная ссылка и текущий трек при открытии Spotlight</string>
 </resources>

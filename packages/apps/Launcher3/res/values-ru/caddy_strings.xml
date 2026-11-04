@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caddy_utilities">Утилиты</string>
+    <string name="caddy_games">Игры</string>
+    <string name="caddy_lifestyle">Стиль жизни</string>
+    <string name="caddy_finance">Финансы</string>
+    <string name="caddy_entertainment">Развлечения</string>
+    <string name="caddy_multimedia">Мультимедиа</string>
+    <string name="caddy_travel">Путешествия</string>
+    <string name="caddy_favorites">Избранные приложения</string>
+    <string name="caddy_edit_favorites">Изменить избранные приложения</string>
+    <string name="caddy_hold_to_edit">Нажмите и удерживайте, чтобы изменить избранные приложения</string>
+    <string name="caddy_choose_favorites">Выберите до четырёх приложений. На пустых местах отображаются случайные приложения.</string>
+    <string name="caddy_favorites_count">Выбрано: %1$d из 4</string>
+    <string name="caddy_favorites_limit">Выберите до четырёх приложений</string>
+    <string name="caddy_use_random">Случайные приложения</string>
+    <string name="caddy_search_apps">Поиск приложений</string>
+    <string name="caddy_no_apps">Подходящие приложения не найдены</string>
+    <string name="caddy_close">Закрыть</string>
+    <string name="caddy_save">Сохранить</string>
+    <string name="caddy_open_category">Открыть «%1$s» (%2$d прил.)</string>
+</resources>

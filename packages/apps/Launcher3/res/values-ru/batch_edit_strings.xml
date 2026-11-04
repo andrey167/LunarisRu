@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 Lunaris AOSP. SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="batch_edit_done">Готово</string>
+    <string name="batch_edit_hint">Нажмите на приложения, чтобы выбрать их. Перетащите их на другую страницу или выберите «Переместить сюда» или «Папки».</string>
+    <string name="batch_edit_move_here">Переместить сюда</string>
+    <string name="batch_edit_new_page">Новая страница</string>
+    <string name="batch_edit_select_apps">Выбрать приложения</string>
+    <string name="batch_edit_selected">Выбрано</string>
+    <string name="batch_edit_not_selected">Не выбрано</string>
+    <string name="batch_edit_no_space">Недостаточно места для всех выбранных приложений. Выберите другую страницу.</string>
+    <string name="batch_edit_folders">Папки</string>
+    <string name="batch_edit_create_folder">Создать папку</string>
+    <string name="batch_edit_move_to_folder">Переместить в папку</string>
+    <string name="batch_edit_ungroup_folder">Разгруппировать папку</string>
+    <string name="batch_edit_folder_name">Название папки</string>
+    <string name="batch_edit_default_folder_name">Папка</string>
+    <string name="batch_edit_folder_on_page">%1$s · Страница %2$d</string>
+    <string name="batch_edit_folder_in_dock">%1$s · Панель избранного</string>
+    <string name="batch_edit_folder_minimum">Выберите не менее двух приложений, чтобы создать папку.</string>
+    <string name="batch_edit_folder_select_apps">Выберите приложения для перемещения в папку.</string>
+    <string name="batch_edit_folder_standard_icons">В папки можно помещать стандартные значки приложений и ярлыки размером 1 × 1. Перед группировкой измените размер увеличенных значков.</string>
+    <string name="batch_edit_no_folders">Нет доступных папок.</string>
+    <string name="batch_edit_folder_unavailable">Папка или выбранные приложения изменились. Попробуйте ещё раз.</string>
+    <string name="batch_edit_folder_created">Папка создана</string>
+    <string name="batch_edit_apps_grouped">Выбранные приложения перемещены в папку «%1$s»</string>
+    <string name="batch_edit_folder_ungrouped">Приложения из папки «%1$s» перемещены на главный экран</string>
+    <string name="batch_edit_ungroup_message">Переместить все приложения из папки «%1$s» на главный экран? При необходимости будут добавлены новые страницы.</string>
+    <plurals name="batch_edit_count">
+        <item quantity="one">Выбрано %d приложение</item>
+        <item quantity="few">Выбрано %d приложения</item>
+        <item quantity="many">Выбрано %d приложений</item>
+        <item quantity="other">Выбрано %d приложения</item>
+    </plurals>
+    <plurals name="batch_edit_moved">
+        <item quantity="one">Перемещено %d приложение</item>
+        <item quantity="few">Перемещено %d приложения</item>
+        <item quantity="many">Перемещено %d приложений</item>
+        <item quantity="other">Перемещено %d приложения</item>
+    </plurals>
+</resources>

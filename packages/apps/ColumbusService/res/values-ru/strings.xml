@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Сервис Quick Tap</string>
+    <string name="app_name">Быстрый стук</string>
 
     <!-- Pref keys -->
     <string name="pref_key_lottie" translatable="false">video</string>
@@ -35,13 +35,13 @@
     <string name="launch_app_default" translatable="false">none</string>
 
     <!-- Entry points in Settings -->
-    <string name="settings_entry_title">Quick Tap</string>
+    <string name="settings_entry_title">Быстрый стук для выполнения действия</string>
     <string name="settings_entry_summary_on">Вкл. / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Выкл.</string>
-    <string name="settings_search_keywords">Quick Tap, двойное постукивание, постукивание, жест, ассистент</string>
+    <string name="settings_search_keywords">Быстрый стук, стук снизу, стук, касание, жест, ассистент</string>
 
     <!-- Items in Active Edge gesture settings -->
-    <string name="setting_enabled_title">Использовать Quick Tap</string>
+    <string name="setting_enabled_title">Использовать быстый стук</string>
     <string name="setting_footer_content">Чтобы выполнить действие, дважды постучите по задней панели телефона ближе к середине</string>
     <string name="setting_sensitivity_title">Чувствительность</string>
     <string name="setting_sensitivity_light">Легкое постукивание</string>
@@ -56,7 +56,7 @@
     <string name="app_select_title">Выбрать приложение</string>
     <string name="activity_select_title">Выберите активность</string>
     <string name="launch_app_select_title">@string/app_picker_dialog_title</string>
-    <string name="launch_app_select_summary">Выберите приложение для запуска с помощью Quick Tap</string>
+    <string name="launch_app_select_summary">Выберите приложение для запуска с помощью быстрого стука</string>
 
     <!-- Actions -->
     <string name="action_screenshot_name">Сделать скриншот</string>
@@ -112,7 +112,7 @@
     </string-array>
 
     <!-- Toast -->
-    <string name="gesture_detected">Жест Quick Tap распознан!</string>
+    <string name="gesture_detected">Обнаружен быстрый стук!</string>
 
     <!-- Haptic feedback intensity -->
     <string name="pref_title_haptic_intensity">Интенсивность виброотклика</string>

@@ -121,6 +121,11 @@
     <!-- Hotseat Background -->
     <string name="hotseat_bg_title">Фон панели избранного</string>
     <string name="hotseat_bg_summary">Добавить полупрозрачный фон на панель приложений</string>
+    <string name="hotseat_blur_title">Размытие панели избранного</string>
+    <string name="hotseat_blur_summary">Применять эффект размытия к фону нижней панели</string>
+    <string name="hotseat_shape_title">Форма фона панели избранного</string>
+    <string name="hotseat_shape_capsule">Капсула</string>
+    <string name="hotseat_shape_rounded_square">Скруглённый квадрат</string>
 
     <!-- Background opacity -->
     <string name="background_opacity_title">Непрозрачность фона</string>
@@ -149,6 +154,8 @@
     <string name="dock_search_widget_summary">Заменить поисковую строку в доке совместимым виджетом</string>
     <string name="compact_search_bar_title">Компактная строка поиска</string>
     <string name="compact_search_bar_summary">Показывать компактную капсулу поиска над панелью приложений</string>
+    <string name="compact_search_bar_blur_title">Размытие компактной панели поиска</string>
+    <string name="compact_search_bar_blur_summary">Применять эффект размытия к компактной панели поиска</string>
     <string name="compact_search_bar_action_title">Действие компактного поиска</string>
     <string name="compact_search_bar_action_google">Поиск Google</string>
     <string name="compact_search_bar_action_lens">Google Объектив</string>
@@ -162,6 +169,8 @@
 
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Расположение строки поиска в меню</string>
+    <string name="drawer_pill_search_bar_title">Размытая строка поиска</string>
+    <string name="drawer_pill_search_bar_summary">Использовать размытую капсулу со значком поиска и кнопкой очистки</string>
     <string name="drawer_search_location_hidden">Скрыта</string>
     <string name="drawer_search_location_top">Сверху</string>
     <string name="drawer_search_location_bottom">Снизу</string>
@@ -492,9 +501,9 @@
 
     <!-- Drawer list preference -->
     <string name="drawer_list_title">Макет</string>
-    <string name="drawer_list_summary">Выбор между обычным списком и папками по категориям (Caddy)</string>
+    <string name="drawer_list_summary">Выберите стандартный список приложений или библиотеку приложений с папками категорий и избранными приложениями</string>
     <string name="feed_default">По умолчанию</string>
-    <string name="caddy_beta">Caddy (Бета)</string>
+    <string name="caddy_beta">Библиотека приложений</string>
 
     <!-- Wallpaper carousel -->
     <string name="wallpaper_carousel_title">Карусель обоев</string>
@@ -551,6 +560,8 @@
     <!-- QSB style -->
     <string name="qsb_style_google_title">Строка поиска в стиле Google</string>
     <string name="qsb_style_google_summary">Использовать дизайн строки поиска с кнопками ИИ и Объектива</string>
+    <string name="search_bar_blur_title">Размытие строки поиска</string>
+    <string name="search_bar_blur_summary">Применять эффект размытия к фону строки поиска</string>
     
     <!-- Dark app drawer text -->
     <string name="all_apps_dark_text_title">Темный текст в меню</string>
@@ -620,7 +631,13 @@
 
     <string name="workspace_unlock_animation_title">Анимация появления при разблокировке</string>
     <string name="workspace_unlock_animation_summary">Затухание, масштабирование и появление элементов главного экрана при разблокировке</string>
-
+    <string name="workspace_page_transition_title">Page transition</string>
+    <string name="workspace_page_transition_card">Card</string>
+    <string name="workspace_page_transition_roll">Roll</string>
+    <string name="workspace_page_transition_slide">Classic swipe</string>
+    <string name="workspace_page_transition_cube">Cube</string>
+    <string name="workspace_page_transition_flip">Flip</string>
+    <string name="workspace_page_transition_tilt">Tilt</string>
     <!-- App launch blur -->
     <string name="pref_app_launch_blur_title">Размытие при открытии/закрытии</string>
     <string name="pref_app_launch_blur_summary">Показывать эффект размытия при запуске или закрытии приложений</string>

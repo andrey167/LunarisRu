@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2023 someone5678
+  SPDX-License-Identifier: GPL-3.0-or-later
+  License-Filename: LICENSE
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Bluetooth Devices Helper</string>
+
+    <!-- Settings title -->
+    <string name="settings_title">Расширенные настройки</string>
+
+    <!-- More settings title -->
+    <string name="more_settings_title">@string/settings_title</string>
+    <string name="more_settings_subtitle">Автовоспроизведение, автопауза и многое другое</string>
+ 
+    <!-- OnePod mode -->
+    <string name="onepod_mode_title">Режим OnePod</string>
+    <string name="onepod_mode_summary">Включить элементы управления воспроизведением звука, даже если используется только один наушник AirPods.</string>
+
+    <!-- Auto play -->
+    <string name="auto_play_title">Автовоспроизведение</string>
+    <string name="auto_play_summary">При надевании AirPods воспроизведение звука запускается автоматически.</string>
+
+    <!-- Auto pause -->
+    <string name="auto_pause_title">Автопауза</string>
+    <string name="auto_pause_summary">При снятии AirPods воспроизведение звука приостанавливается.</string>
+</resources>

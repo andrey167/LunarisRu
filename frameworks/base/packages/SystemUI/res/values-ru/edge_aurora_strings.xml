@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP -->
+<resources>
+    <string name="edge_aurora_title">Edge Aurora</string>
+    <string name="edge_aurora_peek_hint">Нажмите, чтобы открыть · Смахните, чтобы очистить</string>
+    <string name="edge_aurora_peek_app">Просмотр уведомлений %1$s</string>
+    <string name="edge_aurora_expand">Развернуть</string>
+    <string name="edge_aurora_reply">Ответить</string>
+    <string name="edge_aurora_reply_hint">Ответить…</string>
+    <string name="edge_aurora_reply_failed">Не удалось отправить. Ответ сохранён; повторите попытку или откройте приложение.</string>
+    <string name="edge_aurora_send">Отправить</string>
+    <string name="edge_aurora_collapse">Свернуть</string>
+    <string name="edge_aurora_clear">Очистить</string>
+    <string name="edge_aurora_open_app">Открыть приложение</string>
+    <string name="edge_aurora_float">Плавающее окно</string>
+    <string name="edge_aurora_unlock">Разблокируйте для чтения</string>
+    <string name="edge_aurora_attachment">Вложение</string>
+</resources>

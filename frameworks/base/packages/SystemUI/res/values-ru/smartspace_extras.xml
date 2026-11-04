@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP. SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <item name="lockscreen_smartspace_extras" type="id" />
+    <dimen name="smartspace_extras_icon_size">32dp</dimen>
+    <dimen name="smartspace_extras_album_art_size">44dp</dimen>
+    <dimen name="smartspace_extras_album_art_radius">9dp</dimen>
+    <string name="smartspace_extras_weather_forecast">Прогноз погоды</string>
+    <string name="smartspace_extras_bluetooth_device">Устройство Bluetooth</string>
+    <string name="smartspace_extras_bluetooth_connected">Подключено</string>
+    <string name="smartspace_extras_bluetooth_battery">%1$d%%</string>
+    <string name="smartspace_extras_bluetooth_left_battery">Л %1$d%%</string>
+    <string name="smartspace_extras_bluetooth_right_battery">П %1$d%%</string>
+    <string name="smartspace_extras_bluetooth_case_battery">Кейс %1$d%%</string>
+    <string name="smartspace_extras_bluetooth_charging">%1$s (заряжается)</string>
+    <string name="smartspace_extras_morning">Доброе утро</string>
+    <string name="smartspace_extras_afternoon">Добрый день</string>
+    <string name="smartspace_extras_evening">Добрый вечер</string>
+    <string name="smartspace_extras_night">Доброй ночи</string>
+    <string name="smartspace_extras_torch_on">Фонарик включён</string>
+    <string name="smartspace_extras_torch_off_action">Нажмите, чтобы выключить</string>
+    <string name="smartspace_extras_next_alarm">Следующий будильник</string>
+    <string name="smartspace_extras_charging">Зарядка</string>
+    <string name="smartspace_extras_low_battery">Низкий заряд батареи</string>
+    <string name="smartspace_extras_event_now">Сейчас происходит</string>
+    <string name="smartspace_extras_event_untitled">Событие календаря</string>
+
+    <string-array name="smartspace_extras_messages_morning">
+        <item>Новый рассвет — новые возможности.</item>
+        <item>Раннее утро — большие перспективы.</item>
+        <item>Просыпайся и сосредоточься на главном.</item>
+        <item>Время добиваться своих целей.</item>
+        <item>Новый день — новый настрой.</item>
+        <item>Вставай, сияй и оставайся собой.</item>
+    </string-array>
+    <string-array name="smartspace_extras_messages_afternoon">
+        <item>В каждой минуте есть возможности.</item>
+        <item>Создай день, который тебе по душе.</item>
+        <item>Мечтай масштабно, действуй разумно и повторяй.</item>
+        <item>Стремись к цели, не отвлекаясь на шум.</item>
+        <item>Держи темп, но не поддавайся давлению.</item>
+        <item>Оставайся на высоте, друг!</item>
+    </string-array>
+    <string-array name="smartspace_extras_messages_evening">
+        <item>Наслаждайся путешествием, а не только результатом.</item>
+        <item>Оставайся любознательным и благодарным.</item>
+        <item>Даже маленькие моменты могут быть волшебными.</item>
+        <item>Время подвести итоги, перезагрузиться и отдохнуть.</item>
+        <item>В тишине приходит ясность.</item>
+        <item>Будь тем, кто создаёт хорошее настроение.</item>
+    </string-array>
+    <string-array name="smartspace_extras_messages_night">
+        <item>Прогресс важнее совершенства.</item>
+        <item>Находи радость в тишине.</item>
+        <item>Мечтай масштабно.</item>
+        <item>Не теряй надежды.</item>
+        <item>Сохраняй спокойствие и здравый смысл.</item>
+        <item>Наслаждайся жизнью и не переживай по пустякам.</item>
+    </string-array>
+</resources>

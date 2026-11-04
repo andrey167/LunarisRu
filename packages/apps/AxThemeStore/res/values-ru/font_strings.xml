@@ -23,9 +23,6 @@
     <string name="font_sample_title">Съешь же ещё этих мягких французских булок</string>
     <string name="font_sample_subtitle">Да выпей же чаю.</string>
     <string name="font_sample_body">Мелкие детали имеют огромное значение. Защитите свой компьютер от вирусов с помощью надежного ПО.</string>
-    <string name="font_sample_numbers" translatable="false">0123456789</string>
-    <string name="font_sample_symbols" translatable="false">"!@#$%^&*()_+-=[]{}|;\':\",.<>?/"</string>
-    <string name="font_sample_glyphs" translatable="false">Aa</string>
     <string name="font_try_text">Введите свой текст</string>
     <string name="font_loading_preview">Подготовка предпросмотра</string>
     <string name="font_applying">Применение шрифта</string>
@@ -52,18 +49,9 @@
     <string name="font_restart_ui_description">Перезапустите интерфейс системы, чтобы обновить строку состояния и другой системный текст новым шрифтом.</string>
     <string name="font_later">Позже</string>
     <string name="font_emoji">Стиль эмодзи</string>
-    <string name="font_emoji_description">Чуть больше выразительности.</string>
     <string name="font_emoji_applied">Стиль эмодзи обновлен</string>
-    <string name="font_emoji_sample" translatable="false">😀 🥰 🌈 ✨ 🎉</string>
     <string name="font_action_failed">Что-то пошло не так</string>
     <string name="font_close">Закрыть</string>
-    <string-array name="font_emoji_entries">
-        <item>Стандартные</item>
-        <item>iOS</item>
-        <item>Samsung</item>
-        <item>SwiftUI</item>
-        <item>Facebook</item>
-    </string-array>
     <plurals name="font_collection_count">
         <item quantity="one">%d шрифт</item>
         <item quantity="few">%d шрифта</item>

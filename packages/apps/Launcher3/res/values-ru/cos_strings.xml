@@ -2,4 +2,6 @@
 <resources>
     <string name="cos_app_animations_title">Анимации приложений ColorOS</string>
      <string name="cos_app_animations_summary">Анимация открытия и закрытия приложений с пружинным эффектом и параллельным запуском при возврате на главный экран</string>
+     <string name="cos_app_animations_warning">Для корректной работы анимации приложений ColorOS требуется надлежащая поддержка ADPF на стороне устройства. Они не подходят для бюджетных устройств.</string>
+    <string name="cos_app_animations_enable">Включить</string>
 </resources>

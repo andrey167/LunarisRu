@@ -70,6 +70,8 @@
     <string name="themes_udfps_icon_summary">Установить стиль значка подэкранного сканера отпечатков</string>
     <string name="themes_udfps_animation_title">Анимация UDFPS</string>
     <string name="themes_udfps_animation_summary">Установить стиль анимации сканера отпечатков</string>
+    <string name="dialog_blur_title">Размытие диалоговых окон и всплывающих сообщений</string>
+    <string name="dialog_blur_summary">Размывать фон системных диалоговых окон и всплывающих сообщений</string>
     <string name="udfps_animation_offset_title">Смещение анимации UDFPS</string>
     <string name="udfps_animation_offset_summary">Регулировка вертикального положения анимации сканера отпечатков</string>
     <string name="udfps_animation_size_title">Размер анимации UDFPS</string>
@@ -286,6 +288,12 @@
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Интерфейс</string>
 
+    <!-- Lockscreen lock icon -->
+    <string name="lockscreen_hide_lock_icon_title">Скрыть значок блокировки</string>
+    <string name="lockscreen_hide_lock_icon_summary">Скрывать значки блокировки и разблокировки на экране блокировки, оставляя видимым значок сканера отпечатков пальцев</string>
+    <string name="lockscreen_lock_icon_top_title">Значок блокировки вверху</string>
+    <string name="lockscreen_lock_icon_top_summary">Отображать значок блокировки в верхней части экрана блокировки. Разблокировка по лицу имеет приоритет при активном использовании.</string>
+    
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Информация о батарее</string>
     <string name="lockscreen_battery_info_summary">Отображать информацию о батарее во время зарядки</string>
@@ -932,9 +940,12 @@
 
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анимация выключения экрана</string>
-    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_colorfade">Плавное затухание</string>
     <string name="screen_off_animation_crt">CRT (Старый телевизор)</string>
     <string name="screen_off_animation_scale">Масштабирование</string>
+    <string name="screen_off_animation_iris">Диафрагма</string>
+    <string name="screen_off_animation_desaturate">Обесцвечивание</string>
+    <string name="screen_off_animation_shutter">Шторка</string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">Вибрация при успешном распознавании отпечатка</string>
@@ -1667,6 +1678,24 @@
     <string name="sidebar_summary">Быстрый запуск приложений в плавающем окне</string>
 
     <!-- Smartspace -->
+    <string name="lockscreen_smartspace_extras_title">Дополнительные элементы Smartspace</string>
+    <string name="lockscreen_smartspace_extras_summary">Показывать дополнительную информацию на экране блокировки и Always-on Display</string>
+    <string name="lockscreen_smartspace_extras_weather_title">Погодные условия</string>
+    <string name="lockscreen_smartspace_extras_weather_summary">Показывать прогнозы погоды и оповещения от Smartspace</string>
+    <string name="lockscreen_smartspace_extras_flashlight_title">Фонарик</string>
+    <string name="lockscreen_smartspace_extras_flashlight_summary">Показывать состояние фонарика и выключать его нажатием</string>
+    <string name="lockscreen_smartspace_extras_default_events_title">Другая информация Smartspace</string>
+    <string name="lockscreen_smartspace_extras_default_events_summary">Показывать предстоящие будильники, уровень заряда батареи и карточки Smartspace (например, таймеры и напоминания)</string>
+    <string name="lockscreen_smartspace_extras_navigation_title">Карты и навигация</string>
+    <string name="lockscreen_smartspace_extras_navigation_summary">Показывать маршруты и информацию о поездках из активных уведомлений навигации</string>
+    <string name="lockscreen_smartspace_extras_calendar_title">События календаря</string>
+    <string name="lockscreen_smartspace_extras_calendar_summary">Показывать текущие события и события на ближайший час, если разрешено отображение личных данных на экране блокировки</string>
+    <string name="lockscreen_smartspace_extras_bluetooth_title">Bluetooth и Fast Pair</string>
+    <string name="lockscreen_smartspace_extras_bluetooth_summary">Показывать подключенные устройства, обложки Fast Pair и уровень заряда батареи</string>
+    <string name="lockscreen_smartspace_extras_music_title">Музыка</string>
+    <string name="lockscreen_smartspace_extras_music_summary">Показывать играющую песню и исполнителя с учетом настроек конфиденциальности экрана блокировки</string>
+    <string name="lockscreen_smartspace_extras_messages_title">Случайные сообщения</string>
+    <string name="lockscreen_smartspace_extras_messages_summary">Показывать приветствие в зависимости от времени суток со случайным сообщением на второй строке</string>
     <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Показывать Google Smartspace при наличии</string>
 
@@ -2778,7 +2807,9 @@
 
     <!-- AOD Peek -->
     <string name="doze_peek_title">Просмотр AOD (AOD Peek)</string>
-    <string name="doze_peek_summary">Кратковременно показывать Ambient Display при выключении экрана</string>
+    <string name="doze_fp_only_title">Только сканер отпечатков</string>
+    <string name="doze_fp_only_summary">Отображать на экране в режиме сна только значок отпечатка пальца, включая функцию AOD Peek</string>
+    <string name="doze_peek_summary">Кратковременно показывать экран в режиме сна при выключении дисплея. Используется, когда постоянное отображение экрана (Always-on Display) выключено.</string>
     <string name="doze_peek_duration_title">Длительность просмотра</string>
     
     <!-- Notification icons center aligned -->
@@ -3056,7 +3087,8 @@
     <string name="pp_spoof_as">Подменять как</string>
     <string name="pp_empty_description">Выбранные приложения будут сообщать выбранную идентичность устройства Pixel для разблокировки эксклюзивных функций Pixel</string>
     <string name="pp_mainline_unsupported">Это устройство уже является Pixel. Подмена недоступна на оригинальных устройствах Pixel.</string>
-
+    <string name="qs_blur_enabled_title">Размытие в быстрых настройках</string>
+    <string name="qs_blur_enabled_summary">Размывать фон панели уведомлений и обоих вариантов дизайна быстрых настроек. Отключите для использования сплошных цветов.</string>
     <string name="qs_mist_enabled_title">Модульные быстрые настройки</string>
     <string name="qs_mist_enabled_summary">Использовать новый модульный дизайн для шапки, плиток, ползунков, медиаплеера и редактора. Требуется перезапуск SystemUI.</string>
     <string name="media_seekbar_style_title">Стиль шкалы воспроизведения медиа</string>
@@ -3065,5 +3097,55 @@
     <string name="media_seekbar_style_glowing">Светящийся</string>
     <string name="media_seekbar_style_gradient_wave">Градиентная волна</string>
     <string name="media_seekbar_style_cos">COS</string>
+    <string name="media_seekbar_style_comet_trail">След кометы</string>
 
+   <string name="network_speed_settings_title">Индикатор сети</string>
+    <string name="network_speed_settings_summary">Скорость сети, автоскрытие, расположение и формат текста</string>
+    <string name="network_speed_enabled_title">Включить индикатор сети</string>
+    <string name="network_speed_enabled_summary">Отображать скорость сети в реальном времени в строке состояния</string>
+    <string name="network_speed_auto_hide_title">Автоскрытие</string>
+    <string name="network_speed_auto_hide_summary">Скрывать индикатор, когда скорость скачивания и отдачи равна нулю</string>
+    <string name="network_speed_position_title">Расположение индикатора</string>
+    <string name="network_speed_position_left">Слева (между часами и уведомлениями)</string>
+    <string name="network_speed_position_right">Справа (в конце)</string>
+    <string name="network_speed_layout_title">Формат текста</string>
+    <string name="network_speed_layout_single">В одну строку (единицы измерения рядом с числом)</string>
+    <string name="network_speed_layout_dual">В две строки (единицы измерения под числом)</string>
+
+    <string name="edge_light_design_chase_around">Преследование по кругу</string>
+    <string name="edge_light_design_mirror_rain">Зеркальный дождь</string>
+    <string name="edge_light_design_corner_out">Из угла наружу</string>
+    <string name="edge_light_design_fire_dance">Танец огня</string>
+    <string name="edge_light_design_side_ripples">Боковые волны</string>
+    <string name="edge_light_design_flat_ripples">Плоские волны</string>
+    <string name="edge_light_design_flat_bars">Плоские полосы</string>
+    <string name="edge_light_design_side_bars">Боковые полосы</string>
+    <string name="edge_light_design_flat_streaks">Плоские шлейфы</string>
+    <string name="edge_light_design_side_streaks">Боковые шлейфы</string>
+    <string name="edge_light_design_side_flutter">Боковое мерцание</string>
+    <string name="edge_light_design_flat_flutter">Плоское мерцание</string>
+    <string name="edge_light_design_flat_waves">Плоские волны</string>
+    <string name="edge_light_design_side_waves">Боковые волны</string>
+    <string name="edge_light_design_waves_around">Волны по кругу</string>
+    <string name="edge_light_design_lights_around">Огни по кругу</string>
+    <string name="edge_light_design_bars_around">Полосы по кругу</string>
+    <string name="edge_light_design_side_braids">Боковые косички</string>
+    <string name="edge_light_design_side_lights">Боковые огни</string>
+    <string name="edge_light_design_serial_lights">Последовательные огни</string>
+    <string name="edge_light_design_serials_around">Последовательные огни по кругу</string>
+    <string name="edge_light_design_snow_particles">Снежные частицы</string>
+    <string name="edge_light_design_bubble_particles">Пузырьки</string>
+    <string name="edge_light_design_dot_particles">Точечные частицы</string>
+    <string name="edge_light_design_strings_around">Гирлянды по кругу</string>
+    <string name="edge_light_animation_speed_title">Скорость анимации</string>
+    <string name="edge_light_animation_speed_summary">Скорость движения светового эффекта</string>
+    <string name="edge_light_design_length_title">Длина эффекта</string>
+    <string name="edge_light_design_length_summary">Длина шлейфов и радиус разлета частиц</string>
+    <string name="edge_light_design_size_title">Размер эффекта</string>
+    <string name="edge_light_design_size_summary">Высота полос и волн либо размер частиц</string>
+    <string name="edge_light_design_density_title">Плотность эффекта</string>
+    <string name="edge_light_design_density_summary">Количество огней, полос, волн или частиц</string>
+    <string name="edge_light_animation_direction_title">Направление анимации</string>
+    <string name="edge_light_direction_normal">Нормальное</string>
+    <string name="edge_light_direction_reversed">Обратное</string>
 </resources>
