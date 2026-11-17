@@ -1,5 +1,5 @@
-Usage
-
+### Usage
+```bash
 LunarisRu_URL="https://github.com/andrey167/LunarisRu.git"
 LunarisRu_DIR="$(pwd)/.LunarisRu_tmp"
 
@@ -13,3 +13,4 @@ git clone --depth=1 "$LunarisRu_URL" "$LunarisRu_DIR" || {
 cp -af "$LunarisRu_DIR/." "$(pwd)/"
 
 rm -rf "$LunarisRu_DIR"
+```
